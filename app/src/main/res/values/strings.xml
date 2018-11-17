@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KwykFyx</string>
+
+    <string-array name="car_brands">
+        <item>Honda</item>
+        <item>Toyota</item>
+        <item>Mitsubishi</item>
+        <item>Suzuki</item>
+        <item>Mercedes-Benz</item>
+        <item>Audi</item>
+        <item>Ford</item>
+        <item>Hyundai</item>
+        <item>Chevrolet</item>
+    </string-array>
+</resources>
