@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">KwykFyx</string>
+    <string name="nameOfPlace">Beach Radiator and Aircodintioning</string>
 
     <string-array name="car_brands">
         <item>Honda</item>
