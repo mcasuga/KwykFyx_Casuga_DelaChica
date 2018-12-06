@@ -36,6 +36,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/mainSearch"
             android:layout_gravity="center"
             android:text="SEARCH" />
 
@@ -73,10 +74,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:id="@+id/mainFind"
                 android:text="Find Mechanic" />
 
             <Button
                 android:layout_width="wrap_content"
+                android:id="@+id/mainHome"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Home" />
