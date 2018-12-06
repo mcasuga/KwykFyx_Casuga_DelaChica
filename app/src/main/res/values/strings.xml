@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">KwykFyx</string>
     <string name="nameOfPlace">Beach Radiator and Aircodintioning</string>
+    <string name="car_problems_and_repair">Car Problems and Repair</string>
+    <string name="airconditioning_problems">Air Conditioning Problems</string>
+    <string name="brake">Brake and Antilock Brake</string>
+    <string name="engine_cooling_system_problems">Engine Cooling System Problems</string>
+    <string name="emission_control">Emission Control</string>
+    <string name="engine_sensor_system_diagnosis">Engine Sensor System Diagnosis</string>
+    <string name="engine_diagnosis_and_repair">Engine Diagnosis and Repair</string>
+    <string name="battery_charging_problems">Battery/Charging problems</string>
+    <string name="lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</string>
 
     <string-array name="car_brands">
         <item>Honda</item>

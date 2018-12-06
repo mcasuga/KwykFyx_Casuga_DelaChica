@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProblemScreen" />
-        <activity android:name=".FindMechanic"></activity>
+        <activity android:name=".FindMechanic" />
+        <activity android:name=".SolutionScreen" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".HomeScreenProblem" />
+        <activity android:name=".HomeScreenProblemSolution"></activity>
     </application>
 
 </manifest>
