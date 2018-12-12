@@ -158,6 +158,7 @@
             <solution_title>Test solution_title from XML #19</solution_title>
             <problem_addressed>The Problem addressed from XML #19</problem_addressed>
             <solution_description>Test Description from XML #19</solution_description>
+            <problem_description>Test Problem Description from XML #19</problem_description>
             <full_text>Full Text from XML #19</full_text>
         </solution>
     </category>

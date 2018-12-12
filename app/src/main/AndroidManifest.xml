@@ -28,19 +28,19 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.kwykfyxapp.kwykfyx.SpecificSolutionActivity"
+            android:name="com.kwykfyxapp.kwykfyx.solution.SpecificSolutionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.kwykfyxapp.kwykfyx.BrowseCategoriesActivity"
+            android:name="com.kwykfyxapp.kwykfyx.browse.BrowseCategoriesActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.kwykfyxapp.kwykfyx.ProblemsActivity"
+            android:name="com.kwykfyxapp.kwykfyx.browse.problems.ProblemsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.kwykfyxapp.kwykfyx.SolutionsActivity"
+            android:name="com.kwykfyxapp.kwykfyx.solution.SolutionsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

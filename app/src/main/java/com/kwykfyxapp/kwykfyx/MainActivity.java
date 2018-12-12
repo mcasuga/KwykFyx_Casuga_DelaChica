@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.kwykfyxapp.kwykfyx.browse.BrowseCategoriesActivity;
 import com.kwykfyxapp.kwykfyx.kwykfyx.R;
 import com.kwykfyxapp.kwykfyx.search.SearchActivity;
 
@@ -50,9 +51,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.main_findMechanicButton:
                 Intent toFindMechanicActivity = new Intent(MainActivity.this, FindMechanicActivity.class);
+                startActivity(toFindMechanicActivity);
                 break;
             case R.id.main_browseButton:
                 Intent toBrowseCategoriesActivity = new Intent(MainActivity.this, BrowseCategoriesActivity.class);
+                startActivity(toBrowseCategoriesActivity);
                 break;
         }
     }

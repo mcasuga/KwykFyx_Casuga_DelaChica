@@ -19,22 +19,30 @@ public class SearchHelper {
 
         XmlPullParser xmlPullParser = context.getResources().getXml(R.xml.solutions);
 
-        String title = "", desc = "";
+        String title = "", desc = "", fullText = "", probAddressed = "";
         while (xmlPullParser.getEventType() != XmlPullParser.END_DOCUMENT) {
 
-            if (!TextUtils.isEmpty(title) && !TextUtils.isEmpty(desc)) {
-                returnArrayList.add(new SearchResult(title, desc));
+            if (!TextUtils.isEmpty(title) && !TextUtils.isEmpty(desc) && !TextUtils.isEmpty(fullText)) {
+                returnArrayList.add(new SearchResult(title, desc, fullText, probAddressed));
                 title = "";
                 desc = "";
+                fullText = "";
+                probAddressed = "";
             }
 
             if (xmlPullParser.getEventType() == XmlPullParser.START_TAG) {
-                if (xmlPullParser.getName().equalsIgnoreCase("title")) {
+                if (xmlPullParser.getName().equalsIgnoreCase("solution_title")) {
                     xmlPullParser.next();
                     title = xmlPullParser.getText();
-                } else if (xmlPullParser.getName().equalsIgnoreCase("description")) {
+                } else if (xmlPullParser.getName().equalsIgnoreCase("solution_description")) {
                     xmlPullParser.next();
                     desc = xmlPullParser.getText();
+                } else if (xmlPullParser.getName().equalsIgnoreCase("full_text")) {
+                    xmlPullParser.next();
+                    fullText = xmlPullParser.getText();
+                } else if (xmlPullParser.getName().equalsIgnoreCase("problem_addressed")) {
+                    xmlPullParser.next();
+                    probAddressed = xmlPullParser.getText();
                 }
             }
             xmlPullParser.next();

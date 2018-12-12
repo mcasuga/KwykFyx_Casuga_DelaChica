@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fadeScrollbars="true"
-    tools:context="com.kwykfyxapp.kwykfyx.BrowseCategoriesActivity">
+    tools:context="com.kwykfyxapp.kwykfyx.browse.BrowseCategoriesActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -19,13 +19,14 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/browse_carProblemsLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/firstRowLeft"
+                    android:id="@+id/browse_carProblemsTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -40,13 +41,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/browse_airconditioningLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/firstRowRight"
+                    android:id="@+id/browse_airconditioningTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -71,13 +73,14 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/browse_batteryChargingLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/secondRowLeft"
+                    android:id="@+id/browse_batteryChargingTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -92,13 +95,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/browse_brakeAntilockLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/secondRowRight"
+                    android:id="@+id/browse_brakeAntilockTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -123,13 +127,14 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/browse_engineCoolingLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/thirdRowLeft"
+                    android:id="@+id/browse_engineCoolingTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -144,13 +149,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/browse_emissionControlLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/thirdRowRight"
+                    android:id="@+id/browse_emissionControlTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -175,13 +181,14 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/browse_engineDiagnosisLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/fourthRowLeft"
+                    android:id="@+id/browse_engineDiagnosisTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -196,13 +203,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/browse_engineSensorLinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/fourthRowRight"
+                    android:id="@+id/browse_engineSensorTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"

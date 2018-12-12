@@ -1,4 +1,4 @@
-package com.kwykfyxapp.kwykfyx;
+package com.kwykfyxapp.kwykfyx.solution;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
