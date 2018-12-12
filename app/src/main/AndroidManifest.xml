@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="june.delachica.com.kwykfyx">
+    package="com.kwykfyxapp.kwykfyx.kwykfyx">
 
     <application
         android:allowBackup="true"
@@ -9,19 +9,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.kwykfyxapp.kwykfyx.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProblemScreen" />
-        <activity android:name=".FindMechanic" />
-        <activity android:name=".SolutionScreen" />
-        <activity android:name=".HomeScreen" />
-        <activity android:name=".HomeScreenProblem" />
-        <activity android:name=".HomeScreenProblemSolution"></activity>
+        <activity
+            android:name="com.kwykfyxapp.kwykfyx.search.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.kwykfyxapp.kwykfyx.FindMechanicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.kwykfyxapp.kwykfyx.SpecificSolutionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.kwykfyxapp.kwykfyx.BrowseCategoriesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.kwykfyxapp.kwykfyx.ProblemsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.kwykfyxapp.kwykfyx.SolutionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

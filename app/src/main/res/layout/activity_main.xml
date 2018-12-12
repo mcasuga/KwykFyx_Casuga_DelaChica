@@ -4,62 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.kwykfyxapp.kwykfyx.MainActivity">
 
     <LinearLayout
+        android:id="@+id/firstRow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="160dp"
             android:layout_marginTop="30dp"
             android:src="@drawable/icon_car" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:gravity="center"
-            android:text="What seems to be the problem"
+            android:text="What seems to be the problem?"
             android:textColor="#000"
-            android:textSize="20sp" />
+            android:textSize="30sp" />
 
         <EditText
+            android:id="@+id/main_searchQueryEditText"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/mainSearch"
-            android:layout_gravity="center"
-            android:text="SEARCH" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:text="What brand of car do you own?"
-            android:textColor="#000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/spinner1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/main_searchButton"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp">
-
-        </Spinner>
+            android:text="Search" />
     </LinearLayout>
 
     <RelativeLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -74,15 +63,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/mainFind"
+                android:id="@+id/main_findMechanicButton"
                 android:text="Find Mechanic" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:id="@+id/mainHome"
+                android:id="@+id/main_browseButton"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Home" />
+                android:text="Browse" />
         </LinearLayout>
 
     </RelativeLayout>

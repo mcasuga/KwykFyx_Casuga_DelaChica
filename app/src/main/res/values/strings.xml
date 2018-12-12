@@ -12,6 +12,7 @@
     <string name="lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum_lorem_ipsum">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</string>
 
     <string-array name="car_brands">
+        <item>Choose one</item>
         <item>Honda</item>
         <item>Toyota</item>
         <item>Mitsubishi</item>
