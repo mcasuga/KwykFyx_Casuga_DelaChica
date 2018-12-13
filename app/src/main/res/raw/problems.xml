@@ -1,0 +1,97 @@
+<Problems>
+    <category type="car_problems_and_repair">
+        <problem id="cpr-001">
+            <problemTitle>CPR-001 title</problemTitle>
+            <problemDescription>CPR-001 desc</problemDescription>
+        </problem>
+
+        <problem id="cpr-023">
+            <problemTitle>CPR-023</problemTitle>
+            <problemDescription>CPR-023</problemDescription>
+        </problem>
+
+        <problem id="cpr-032">
+            <problemTitle>CPR-032</problemTitle>
+            <problemDescription>CPR-032</problemDescription>
+        </problem>
+    </category>
+
+    <category type="airconditioning">
+        <problem id="ac-001">
+            <problemTitle>AC-001 title</problemTitle>
+            <problemDescription>AC-001 desc</problemDescription>
+        </problem>
+
+        <problem id="ac-456">
+            <problemTitle>AC-456 title</problemTitle>
+            <problemDescription>AC-456 desc</problemDescription>
+        </problem>
+    </category>
+
+    <category type="battery_charging">
+        <problem id="bc-002">
+            <problemTitle>BC-002 title</problemTitle>
+            <problemDescription>BC-002 desc</problemDescription>
+        </problem>
+    </category>
+
+    <category type="brake_and_antilock">
+        <problem id="bal-023">
+            <problemTitle>BAL-023 title</problemTitle>
+            <problemDescription>BAL-023 desc</problemDescription>
+        </problem>
+
+        <problem id="bal-024">
+            <problemTitle>BAL-024 title</problemTitle>
+            <problemDescription>BAL-024 desc</problemDescription>
+        </problem>
+
+        <problem id="bal-134">
+            <problemTitle>BAL-134 title</problemTitle>
+            <problemDescription>BAL-134 desc</problemDescription>
+        </problem>
+    </category>
+
+    <category type="engine_cooling_system">
+        <problem id="ecs-094">
+            <problemTitle>ECS-094 title</problemTitle>
+            <problemDescription>ECS-094 desc</problemDescription>
+        </problem>
+
+        <problem id="ecs-001">
+            <problemTitle>ECS-001 title</problemTitle>
+            <problemDescription>ECS-001 desc</problemDescription>
+        </problem>
+    </category>
+
+    <category type="emission_control">
+        <problem id="ec-023">
+            <problemTitle>EC-023 title</problemTitle>
+            <problemDescription>EC-023 desc</problemDescription>
+        </problem>
+    </category>
+
+    <category type="engine_diagnosis">
+        <problem id="ed-007">
+            <problemTitle>ED-007 title</problemTitle>
+            <problemDescription>ED-007 desc</problemDescription>
+        </problem>
+
+        <problem id="ed-006">
+            <problemTitle>ED-006 title</problemTitle>
+            <problemDescription>ED-006 desc</problemDescription>
+        </problem>
+    </category>
+
+    <category type="engine_sensor">
+        <problem id="es-001">
+            <problemTitle>ES-001 title</problemTitle>
+            <problemDescription>ES-001 desc</problemDescription>
+        </problem>
+
+        <problem id="es-096">
+            <problemTitle>ES-096 title</problemTitle>
+            <problemDescription>ES-096 desc</problemDescription>
+        </problem>
+    </category>
+</Problems>

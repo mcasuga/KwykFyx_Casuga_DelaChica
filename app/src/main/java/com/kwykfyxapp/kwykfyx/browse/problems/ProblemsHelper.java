@@ -2,7 +2,6 @@ package com.kwykfyxapp.kwykfyx.browse.problems;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import android.text.TextUtils;
 
 import com.kwykfyxapp.kwykfyx.kwykfyx.R;
 
@@ -11,7 +10,6 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
@@ -56,7 +54,46 @@ public class ProblemsHelper {
                 break;
         }
 
-        InputStream inputStream = context.getResources().openRawResource(R.raw.solutions);
+        //        InputStream inputStream = context.getResources().openRawResource(R.raw.solutions);
+        //
+        //        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+        //        DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+        //        Document document = documentBuilder.parse(inputStream);
+        //
+        //        Element rootElement = document.getDocumentElement();
+        //        rootElement.normalize();
+        //
+        //        NodeList categoryNodeList = document.getElementsByTagName("category");
+        //
+        //        for (int i = 0; i < categoryNodeList.getLength(); i++) {
+        //            Node currentCategoryNode = categoryNodeList.item(i);
+        //
+        //            if (currentCategoryNode.getNodeType() == Node.ELEMENT_NODE) {
+        //                Element currentCategoryElement = (Element) currentCategoryNode;
+        //
+        //                if (categoryDesired.equals(currentCategoryElement.getAttribute("type"))) {
+        //
+        //                    NodeList solutionNodeList = currentCategoryElement.getElementsByTagName("solution");
+        //
+        //                    for (int j = 0; j < solutionNodeList.getLength(); j++) {
+        //                        Node currentSolutionNode = solutionNodeList.item(j);
+        //
+        //                        if (currentSolutionNode.getNodeType() == Node.ELEMENT_NODE) {
+        //                            Element currentSolutionElement = (Element) currentSolutionNode;
+        //
+        //                            String problemTitle = getValue("problem_addressed", currentSolutionElement);
+        //                            String problemDescription = getValue("problem_description", currentSolutionElement);
+        //
+        //                            if (problemTitle != null && problemDescription != null) {
+        //                                returnArrayList.add(new Problem(problemTitle, problemDescription));
+        //                            }
+        //                        }
+        //                    }
+        //                }
+        //            }
+        //        }
+
+        InputStream inputStream = context.getResources().openRawResource(R.raw.problems);
 
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
@@ -74,20 +111,20 @@ public class ProblemsHelper {
                 Element currentCategoryElement = (Element) currentCategoryNode;
 
                 if (categoryDesired.equals(currentCategoryElement.getAttribute("type"))) {
+                    NodeList problemNodeList = currentCategoryElement.getElementsByTagName("problem");
 
-                    NodeList solutionNodeList = currentCategoryElement.getElementsByTagName("solution");
+                    for (int j = 0; j < problemNodeList.getLength(); j++) {
+                        Node currentProblemNode = problemNodeList.item(j);
 
-                    for (int j = 0; j < solutionNodeList.getLength(); j++) {
-                        Node currentSolutionNode = solutionNodeList.item(j);
+                        if (currentProblemNode.getNodeType() == Node.ELEMENT_NODE) {
+                            Element currentProblemElement = (Element) currentProblemNode;
 
-                        if (currentSolutionNode.getNodeType() == Node.ELEMENT_NODE) {
-                            Element currentSolutionElement = (Element) currentSolutionNode;
+                            String problemID = currentProblemElement.getAttribute("id");
+                            String problemTitle = getValue("problemTitle", currentProblemElement);
+                            String problemDescription = getValue("problemDescription", currentProblemElement);
 
-                            String problemTitle = getValue("problem_addressed", currentSolutionElement);
-                            String problemDescription = getValue("problem_description", currentSolutionElement);
-
-                            if (problemTitle != null && problemDescription != null) {
-                                returnArrayList.add(new Problem(problemTitle, problemDescription));
+                            if (problemID != null && problemTitle != null && problemDescription != null) {
+                                returnArrayList.add(new Problem(problemID, problemTitle, problemDescription));
                             }
                         }
                     }

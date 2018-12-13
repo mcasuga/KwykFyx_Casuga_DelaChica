@@ -1,224 +1,172 @@
 <Solutions>
     <category type="car_problems_and_repair">
-        <solution>
+        <solution problemaddressed="cpr-001">
             <solution_title>Test solution_title from XML #1</solution_title>
-            <problem_addressed>The Problem addressed from XML #1</problem_addressed>
             <solution_description>Test Solution Description from XML #1</solution_description>
-            <problem_description>Test Problem Description from XML #1</problem_description>
             <full_text>Full Text from XML #1</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="cpr-001">
             <solution_title>Test solution_title from XML #2</solution_title>
-            <problem_addressed>The Problem addressed from XML #2</problem_addressed>
             <solution_description>Test Solution Description from XML #2</solution_description>
-            <problem_description>Test Problem Description from XML #2</problem_description>
             <full_text>Full Text from XML #2</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="cpr-023">
             <solution_title>Test solution_title from XML #3</solution_title>
-            <problem_addressed>The Problem addressed from XML #3</problem_addressed>
             <solution_description>Test Solution Description from XML #3</solution_description>
-            <problem_description>Test Problem Description from XML #3</problem_description>
             <full_text>Full Text from XML #3</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="cpr-032">
             <solution_title>Test solution_title from XML #4</solution_title>
-            <problem_addressed>The Problem addressed from XML #4</problem_addressed>
             <solution_description>Test Solution Description from XML #4</solution_description>
-            <problem_description>Test Problem Description from XML #4</problem_description>
             <full_text>Full Text from XML #4</full_text>
         </solution>
     </category>
 
     <category type="airconditioning">
-        <solution>
+        <solution problemaddressed="ac-001">
             <solution_title>Test solution_title from XML #5</solution_title>
-            <problem_addressed>The Problem addressed from XML #5</problem_addressed>
             <solution_description>Test Solution Description from XML #5</solution_description>
-            <problem_description>Test Problem Description from XML #5</problem_description>
             <full_text>Full Text from XML #5</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ac-001">
             <solution_title>Test solution_title from XML #6</solution_title>
-            <problem_addressed>The Problem addressed from XML #6</problem_addressed>
             <solution_description>Test Solution Description from XML #6</solution_description>
-            <problem_description>Test Problem Description from XML #6</problem_description>
             <full_text>Full Text from XML #6</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ac-456">
             <solution_title>Test solution_title from XML #7</solution_title>
-            <problem_addressed>The Problem addressed from XML #7</problem_addressed>
             <solution_description>Test Solution Description from XML #7</solution_description>
-            <problem_description>Test Problem Description from XML #7</problem_description>
             <full_text>Full Text from XML #7</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ac-456">
             <solution_title>Test solution_title from XML #8</solution_title>
-            <problem_addressed>The Problem addressed from XML #8</problem_addressed>
             <solution_description>Test Solution Description from XML #8</solution_description>
-            <problem_description>Test Problem Description from XML #8</problem_description>
             <full_text>Full Text from XML #8</full_text>
         </solution>
     </category>
 
     <category type="battery_charging">
-        <solution>
+        <solution problemaddressed="bc-002">
             <solution_title>Test solution_title from XML #9</solution_title>
-            <problem_addressed>The Problem addressed from XML #9</problem_addressed>
             <solution_description>Test Solution Description from XML #9</solution_description>
-            <problem_description>Test Problem Description from XML #9</problem_description>
             <full_text>Full Text from XML #9</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="bc-002">
             <solution_title>Test solution_title from XML #10</solution_title>
-            <problem_addressed>The Problem addressed from XML #10</problem_addressed>
             <solution_description>Test Solution Description from XML #10</solution_description>
-            <problem_description>Test Problem Description from XML #10</problem_description>
             <full_text>Full Text from XML #10</full_text>
         </solution>
     </category>
 
     <category type="brake_and_antilock">
-        <solution>
+        <solution problemaddressed="bal-023">
             <solution_title>Test solution_title from XML #11</solution_title>
-            <problem_addressed>The Problem addressed from XML #11</problem_addressed>
             <solution_description>Test Solution Description from XML #11</solution_description>
-            <problem_description>Test Problem Description from XML #11</problem_description>
             <full_text>Full Text from XML #11</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="bal-023">
             <solution_title>Test solution_title from XML #12</solution_title>
-            <problem_addressed>The Problem addressed from XML #12</problem_addressed>
             <solution_description>Test Solution Description from XML #12</solution_description>
-            <problem_description>Test Problem Description from XML #12</problem_description>
             <full_text>Full Text from XML #12</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="bal-024">
             <solution_title>Test solution_title from XML #13</solution_title>
-            <problem_addressed>The Problem addressed from XML #13</problem_addressed>
             <solution_description>Test Solution Description from XML #13</solution_description>
-            <problem_description>Test Problem Description from XML #13</problem_description>
             <full_text>Full Text from XML #13</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="bal-134">
             <solution_title>Test solution_title from XML #14</solution_title>
-            <problem_addressed>The Problem addressed from XML #14</problem_addressed>
             <solution_description>Test Solution Description from XML #14</solution_description>
-            <problem_description>Test Problem Description from XML #14</problem_description>
             <full_text>Full Text from XML #14</full_text>
         </solution>
     </category>
 
     <category type="engine_cooling_system">
-        <solution>
+        <solution problemaddressed="ecs-094">
             <solution_title>Test solution_title from XML #15</solution_title>
-            <problem_addressed>The Problem addressed from XML #15</problem_addressed>
             <solution_description>Test Solution Description from XML #15</solution_description>
-            <problem_description>Test Problem Description from XML #15</problem_description>
             <full_text>Full Text from XML #15</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ecs-001">
             <solution_title>Test solution_title from XML #16</solution_title>
-            <problem_addressed>The Problem addressed from XML #16</problem_addressed>
             <solution_description>Test Solution Description from XML #16</solution_description>
-            <problem_description>Test Problem Description from XML #16</problem_description>
             <full_text>Full Text from XML #16</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ecs-094">
             <solution_title>Test solution_title from XML #17</solution_title>
-            <problem_addressed>The Problem addressed from XML #17</problem_addressed>
             <solution_description>Test Solution Description from XML #17</solution_description>
-            <problem_description>Test Problem Description from XML #17</problem_description>
             <full_text>Full Text from XML #17</full_text>
         </solution>
     </category>
 
     <category type="emission_control">
-        <solution>
+        <solution problemaddressed="ec-023">
             <solution_title>Test solution_title from XML #18</solution_title>
-            <problem_addressed>The Problem addressed from XML #18</problem_addressed>
             <solution_description>Test Solution Description from XML #18</solution_description>
-            <problem_description>Test Problem Description from XML #18</problem_description>
             <full_text>Full Text from XML #18</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ec-023">
             <solution_title>Test solution_title from XML #19</solution_title>
-            <problem_addressed>The Problem addressed from XML #19</problem_addressed>
             <solution_description>Test Description from XML #19</solution_description>
-            <problem_description>Test Problem Description from XML #19</problem_description>
             <full_text>Full Text from XML #19</full_text>
         </solution>
     </category>
 
     <category type="engine_diagnosis">
-        <solution>
+        <solution problemaddressed="ed-007">
             <solution_title>Test solution_title from XML #20</solution_title>
-            <problem_addressed>The Problem addressed from XML #20</problem_addressed>
             <solution_description>Test Solution Description from XML #20</solution_description>
-            <problem_description>Test Problem Description from XML #20</problem_description>
             <full_text>Full Text from XML #20</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ed-007">
             <solution_title>Test solution_title from XML #21</solution_title>
-            <problem_addressed>The Problem addressed from XML #21</problem_addressed>
             <solution_description>Test Solution Description from XML #21</solution_description>
-            <problem_description>Test Problem Description from XML #21</problem_description>
             <full_text>Full Text from XML #21</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ed-007">
             <solution_title>Test solution_title from XML #22</solution_title>
-            <problem_addressed>The Problem addressed from XML #22</problem_addressed>
             <solution_description>Test Solution Description from XML #22</solution_description>
-            <problem_description>Test Problem Description from XML #22</problem_description>
             <full_text>Full Text from XML #22</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="ed-006">
             <solution_title>Test solution_title from XML #23</solution_title>
-            <problem_addressed>The Problem addressed from XML #23</problem_addressed>
             <solution_description>Test Solution Description from XML #23</solution_description>
-            <problem_description>Test Problem Description from XML #23</problem_description>
             <full_text>Full Text from XML #23</full_text>
         </solution>
     </category>
 
     <category type="engine_sensor">
-        <solution>
+        <solution problemaddressed="es-001">
             <solution_title>Test solution_title from XML #24</solution_title>
-            <problem_addressed>The Problem addressed from XML #24</problem_addressed>
             <solution_description>Test Solution Description from XML #24</solution_description>
-            <problem_description>Test Problem Description from XML #24</problem_description>
             <full_text>Full Text from XML #24</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="es-001">
             <solution_title>Test solution_title from XML #25</solution_title>
-            <problem_addressed>The Problem addressed from XML #25</problem_addressed>
             <solution_description>Test Solution Description from XML #25</solution_description>
-            <problem_description>Test Problem Description from XML #25</problem_description>
             <full_text>Full Text from XML #25</full_text>
         </solution>
 
-        <solution>
+        <solution problemaddressed="es-096">
             <solution_title>Test solution_title from XML #26</solution_title>
-            <problem_addressed>The Problem addressed from XML #26</problem_addressed>
             <solution_description>Test Solution Description from XML #26</solution_description>
-            <problem_description>Test Problem Description from XML #26</problem_description>
             <full_text>Full Text from XML #26</full_text>
         </solution>
     </category>

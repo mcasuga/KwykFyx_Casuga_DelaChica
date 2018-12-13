@@ -1,17 +1,18 @@
 package com.kwykfyxapp.kwykfyx.browse.problems;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.kwykfyxapp.kwykfyx.MainActivity;
 import com.kwykfyxapp.kwykfyx.kwykfyx.R;
+import com.kwykfyxapp.kwykfyx.solution.SolutionsActivity;
 import com.kwykfyxapp.kwykfyx.utils.KwykFyxUtils;
 
 import org.xml.sax.SAXException;
@@ -66,6 +67,20 @@ public class ProblemsActivity extends AppCompatActivity {
             CustomBrowseListViewAdapter customBrowseListViewAdapter = new CustomBrowseListViewAdapter();
             problems_problemsListView.setAdapter(customBrowseListViewAdapter);
             customBrowseListViewAdapter.notifyDataSetChanged();
+
+            problems_problemsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    Intent toSolutionsActivity = new Intent(ProblemsActivity.this, SolutionsActivity.class);
+
+                    toSolutionsActivity.putExtra("com.kwykfyxapp.kwykfyx.browse.problems.ProblemsActivity.PROBLEM_TITLE", mProblems.get(i).getProblemTitle());
+
+                    toSolutionsActivity.putExtra("com.kwykfyxapp.kwykfyx.browse.problems.ProblemsActivity.PROBLEM_DESCRIPTION", mProblems.get(i)
+                            .getProblemDescription());
+
+                    startActivity(toSolutionsActivity);
+                }
+            });
         }
     }
 

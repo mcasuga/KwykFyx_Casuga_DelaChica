@@ -1,9 +1,9 @@
 package com.kwykfyxapp.kwykfyx.search;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,15 +16,18 @@ import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.kwykfyxapp.kwykfyx.MainActivity;
-import com.kwykfyxapp.kwykfyx.solution.SpecificSolutionActivity;
 import com.kwykfyxapp.kwykfyx.kwykfyx.R;
+import com.kwykfyxapp.kwykfyx.solution.SpecificSolutionActivity;
 import com.kwykfyxapp.kwykfyx.utils.KwykFyxUtils;
 
+import org.xml.sax.SAXException;
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.xml.parsers.ParserConfigurationException;
 
 public class SearchActivity extends AppCompatActivity {
 
@@ -62,6 +65,10 @@ public class SearchActivity extends AppCompatActivity {
                     e.printStackTrace();
                 } catch (IOException e) {
                     e.printStackTrace();
+                } catch (SAXException e) {
+                    e.printStackTrace();
+                } catch (ParserConfigurationException e) {
+                    e.printStackTrace();
                 }
 
                 // Custom adapter for custom views in ListView
@@ -96,12 +103,24 @@ public class SearchActivity extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                         Intent toSearchSpecificSolution = new Intent(SearchActivity.this, SpecificSolutionActivity.class);
 
+                        //                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_TITLE",
+                        // mFilteredSeachResults.get(i).getSearchTitle());
+                        //
+                        //                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_PROBLEM_ADDRESSED",
+                        // mFilteredSeachResults.get(i)
+                        //                                .getSearchProblemAddressedID());
+                        //
+                        //                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_FULL_TEXT", mFilteredSeachResults.get(i).getSearchFullText());
+
                         toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_TITLE", mFilteredSeachResults.get(i).getSearchTitle());
 
-                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_PROBLEM_ADDRESSED", mFilteredSeachResults.get(i)
-                                .getSearchProblemAddressed());
+                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_DESC", mFilteredSeachResults.get(i).getSearchDescription());
 
-                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_FULL_TEXT", mFilteredSeachResults.get(i).getSearchFullText());
+                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_FULL_TEXT", mFilteredSeachResults.get(i)
+                                .getSearchFullText());
+
+                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_PROBLEM_ADDRESSED_ID", mFilteredSeachResults.get(i)
+                                .getSearchProblemAddressedID());
 
                         startActivity(toSearchSpecificSolution);
                     }

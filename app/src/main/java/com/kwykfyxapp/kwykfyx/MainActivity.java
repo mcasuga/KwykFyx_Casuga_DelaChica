@@ -1,6 +1,7 @@
 package com.kwykfyxapp.kwykfyx;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -50,8 +51,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.main_findMechanicButton:
-                Intent toFindMechanicActivity = new Intent(MainActivity.this, FindMechanicActivity.class);
-                startActivity(toFindMechanicActivity);
+                Uri googleMapsURI = Uri.parse("geo:0,0?q=mechanics");
+                Intent toGoogleMapsIntent = new Intent(Intent.ACTION_VIEW, googleMapsURI);
+                toGoogleMapsIntent.setPackage("com.google.android.apps.maps");
+                startActivity(toGoogleMapsIntent);
                 break;
             case R.id.main_browseButton:
                 Intent toBrowseCategoriesActivity = new Intent(MainActivity.this, BrowseCategoriesActivity.class);

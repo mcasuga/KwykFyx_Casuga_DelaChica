@@ -1,18 +1,16 @@
 package com.kwykfyxapp.kwykfyx.search;
 
-import com.kwykfyxapp.kwykfyx.solution.Solution;
-
 public class SearchResult {
     String searchTitle;
     String searchDescription;
     String searchFullText;
-    String searchProblemAddressed;
+    String searchProblemAddressedID;
 
-    public SearchResult(String searchTitle, String searchDescription, String searchFullText, String searchProblemAddressed) {
+    public SearchResult(String searchTitle, String searchDescription, String searchFullText, String searchProblemAddressedID) {
         this.searchTitle = searchTitle;
         this.searchDescription = searchDescription;
         this.searchFullText = searchFullText;
-        this.searchProblemAddressed = searchProblemAddressed;
+        this.searchProblemAddressedID = searchProblemAddressedID;
     }
 
     public String getSearchTitle() {
@@ -39,11 +37,11 @@ public class SearchResult {
         this.searchFullText = searchFullText;
     }
 
-    public String getSearchProblemAddressed() {
-        return searchProblemAddressed;
+    public String getSearchProblemAddressedID() {
+        return searchProblemAddressedID;
     }
 
-    public void setSearchProblemAddressed(String searchProblemAddressed) {
-        this.searchProblemAddressed = searchProblemAddressed;
+    public void setSearchProblemAddressedID(String searchProblemAddressedID) {
+        this.searchProblemAddressedID = searchProblemAddressedID;
     }
 }
