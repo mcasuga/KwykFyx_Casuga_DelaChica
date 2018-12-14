@@ -21,7 +21,6 @@ import com.kwykfyxapp.kwykfyx.solution.SpecificSolutionActivity;
 import com.kwykfyxapp.kwykfyx.utils.KwykFyxUtils;
 
 import org.xml.sax.SAXException;
-import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -61,8 +60,6 @@ public class SearchActivity extends AppCompatActivity {
                     // Get search hits on res/xml/solutions.xml file
                     mSearchResults = SearchHelper.getSearchResults(SearchActivity.this);
                     mFilteredSeachResults = mSearchResults;
-                } catch (XmlPullParserException e) {
-                    e.printStackTrace();
                 } catch (IOException e) {
                     e.printStackTrace();
                 } catch (SAXException e) {
@@ -103,14 +100,7 @@ public class SearchActivity extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                         Intent toSearchSpecificSolution = new Intent(SearchActivity.this, SpecificSolutionActivity.class);
 
-                        //                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_TITLE",
-                        // mFilteredSeachResults.get(i).getSearchTitle());
-                        //
-                        //                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_PROBLEM_ADDRESSED",
-                        // mFilteredSeachResults.get(i)
-                        //                                .getSearchProblemAddressedID());
-                        //
-                        //                        toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_FULL_TEXT", mFilteredSeachResults.get(i).getSearchFullText());
+                        toSearchSpecificSolution.putExtra("referrer", "SearchActivity");
 
                         toSearchSpecificSolution.putExtra("com.kwykfyxapp.kwykfyx.search.SearchActivity.SOLUTION_TITLE", mFilteredSeachResults.get(i).getSearchTitle());
 

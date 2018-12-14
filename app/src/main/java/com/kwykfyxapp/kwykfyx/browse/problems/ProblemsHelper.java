@@ -54,45 +54,6 @@ public class ProblemsHelper {
                 break;
         }
 
-        //        InputStream inputStream = context.getResources().openRawResource(R.raw.solutions);
-        //
-        //        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
-        //        DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-        //        Document document = documentBuilder.parse(inputStream);
-        //
-        //        Element rootElement = document.getDocumentElement();
-        //        rootElement.normalize();
-        //
-        //        NodeList categoryNodeList = document.getElementsByTagName("category");
-        //
-        //        for (int i = 0; i < categoryNodeList.getLength(); i++) {
-        //            Node currentCategoryNode = categoryNodeList.item(i);
-        //
-        //            if (currentCategoryNode.getNodeType() == Node.ELEMENT_NODE) {
-        //                Element currentCategoryElement = (Element) currentCategoryNode;
-        //
-        //                if (categoryDesired.equals(currentCategoryElement.getAttribute("type"))) {
-        //
-        //                    NodeList solutionNodeList = currentCategoryElement.getElementsByTagName("solution");
-        //
-        //                    for (int j = 0; j < solutionNodeList.getLength(); j++) {
-        //                        Node currentSolutionNode = solutionNodeList.item(j);
-        //
-        //                        if (currentSolutionNode.getNodeType() == Node.ELEMENT_NODE) {
-        //                            Element currentSolutionElement = (Element) currentSolutionNode;
-        //
-        //                            String problemTitle = getValue("problem_addressed", currentSolutionElement);
-        //                            String problemDescription = getValue("problem_description", currentSolutionElement);
-        //
-        //                            if (problemTitle != null && problemDescription != null) {
-        //                                returnArrayList.add(new Problem(problemTitle, problemDescription));
-        //                            }
-        //                        }
-        //                    }
-        //                }
-        //            }
-        //        }
-
         InputStream inputStream = context.getResources().openRawResource(R.raw.problems);
 
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();

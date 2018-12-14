@@ -43,7 +43,7 @@ public class ProblemsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_problems);
 
-        Intent previousIntent = getIntent();
+        final Intent previousIntent = getIntent();
 
         if (previousIntent == null) {
             KwykFyxUtils.sendToMainActivity(ProblemsActivity.this, MainActivity.class);
@@ -77,6 +77,13 @@ public class ProblemsActivity extends AppCompatActivity {
 
                     toSolutionsActivity.putExtra("com.kwykfyxapp.kwykfyx.browse.problems.ProblemsActivity.PROBLEM_DESCRIPTION", mProblems.get(i)
                             .getProblemDescription());
+
+                    toSolutionsActivity.putExtra("com.kwykfyxapp.kwykfyx.browse.problems.ProblemsActivity.PROBLEM_ID", mProblems.get(i).getProblemID());
+
+                    toSolutionsActivity.putExtra("com.kwykfyxapp.kwykfyx.browse.problems.ProblemsActivity.PROBLEM_TYPE", previousIntent.getIntExtra("com.kwykfyxapp" +
+                            ".kwykfyx.browse.BrowseCategoriesActivity" +
+                            ".PROBLEM_TYPE" +
+                            "", -1));
 
                     startActivity(toSolutionsActivity);
                 }

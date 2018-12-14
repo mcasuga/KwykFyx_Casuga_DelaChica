@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     toSearchActivity.putExtra("com.kwykfyxapp.kwykfyx.MainActivity.SEARCH_QUERY", searchQuery);
                     startActivity(toSearchActivity);
                 }
+
                 break;
             case R.id.main_findMechanicButton:
                 Uri googleMapsURI = Uri.parse("geo:0,0?q=mechanics");

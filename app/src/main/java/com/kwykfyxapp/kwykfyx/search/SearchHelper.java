@@ -10,7 +10,6 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,39 +20,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 public class SearchHelper {
-    public static ArrayList<SearchResult> getSearchResults(Context context) throws XmlPullParserException, IOException, ParserConfigurationException, SAXException {
+    public static ArrayList<SearchResult> getSearchResults(Context context) throws IOException, ParserConfigurationException, SAXException {
         ArrayList<SearchResult> returnArrayList = new ArrayList<>();
-
-        //        XmlPullParser xmlPullParser = context.getResources().getXml(R.xml.solutions);
-        //
-        //        String title = "", desc = "", fullText = "", probAddressed = "";
-        //        while (xmlPullParser.getEventType() != XmlPullParser.END_DOCUMENT) {
-        //
-        //            if (!TextUtils.isEmpty(title) && !TextUtils.isEmpty(desc) && !TextUtils.isEmpty(fullText)) {
-        //                returnArrayList.add(new SearchResult(title, desc, fullText, probAddressed));
-        //                title = "";
-        //                desc = "";
-        //                fullText = "";
-        //                probAddressed = "";
-        //            }
-        //
-        //            if (xmlPullParser.getEventType() == XmlPullParser.START_TAG) {
-        //                if (xmlPullParser.getName().equalsIgnoreCase("solution_title")) {
-        //                    xmlPullParser.next();
-        //                    title = xmlPullParser.getText();
-        //                } else if (xmlPullParser.getName().equalsIgnoreCase("solution_description")) {
-        //                    xmlPullParser.next();
-        //                    desc = xmlPullParser.getText();
-        //                } else if (xmlPullParser.getName().equalsIgnoreCase("full_text")) {
-        //                    xmlPullParser.next();
-        //                    fullText = xmlPullParser.getText();
-        //                } else if (xmlPullParser.getName().equalsIgnoreCase("problem_addressed")) {
-        //                    xmlPullParser.next();
-        //                    probAddressed = xmlPullParser.getText();
-        //                }
-        //            }
-        //            xmlPullParser.next();
-        //        }
 
         InputStream inputStream = context.getResources().openRawResource(R.raw.solutions);
 
