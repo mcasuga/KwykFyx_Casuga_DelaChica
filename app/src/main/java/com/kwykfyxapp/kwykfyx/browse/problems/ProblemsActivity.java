@@ -1,6 +1,7 @@
 package com.kwykfyxapp.kwykfyx.browse.problems;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -37,6 +38,7 @@ public class ProblemsActivity extends AppCompatActivity {
     private ArrayList<Problem> mProblems;
 
     private ListView problems_problemsListView;
+    private TextView problems_problemsTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +52,9 @@ public class ProblemsActivity extends AppCompatActivity {
         } else {
             problems_problemsListView = findViewById(R.id.problems_problemsListView);
 
+            setTextViewDrawable(previousIntent.getIntExtra("com.kwykfyxapp.kwykfyx.browse.BrowseCategoriesActivity" +
+                    ".PROBLEM_TYPE" +
+                    "", -1));
             try {
                 mProblems = ProblemsHelper.getAllProblems(ProblemsActivity.this, previousIntent.getIntExtra("com.kwykfyxapp.kwykfyx.browse.BrowseCategoriesActivity" +
                         ".PROBLEM_TYPE" +
@@ -89,6 +94,52 @@ public class ProblemsActivity extends AppCompatActivity {
                 }
             });
         }
+    }
+
+    private void setTextViewDrawable(int problemType) {
+        problems_problemsTitle = findViewById(R.id.problems_problemsTitle);
+
+        Drawable theDrawableImage = getResources().getDrawable(R.drawable.engineproblems);
+        String textViewTitle = "";
+
+        switch (problemType) {
+            case ProblemsActivity.CAR_PROBLEMS:
+                theDrawableImage = getResources().getDrawable(R.drawable.engineproblems);
+                textViewTitle = "Car Problems and Repair";
+                break;
+            case ProblemsActivity.AIRCONDITIONING_PROBLEMS:
+                theDrawableImage = getResources().getDrawable(R.drawable.airconditioner);
+                textViewTitle = "Air Conditioning Problems";
+                break;
+            case ProblemsActivity.BATTERY_CHARGING_PROBLEMS:
+                theDrawableImage = getResources().getDrawable(R.drawable.battery);
+                textViewTitle = "Battery/Charging Problems";
+                break;
+            case ProblemsActivity.BRAKE_ANTILOCK_BRAKE_PROBLEMS:
+                theDrawableImage = getResources().getDrawable(R.drawable.discbrake);
+                textViewTitle = "Brake and Antilock Brake";
+                break;
+            case ProblemsActivity.ENGINE_COOLING_PROBLEMS:
+                theDrawableImage = getResources().getDrawable(R.drawable.engineer);
+                textViewTitle = "Engine Cooling System";
+                break;
+            case ProblemsActivity.EMISSION_CONTROL_PROBLEMS:
+                theDrawableImage = getResources().getDrawable(R.drawable.smokers);
+                textViewTitle = "Emission Control";
+                break;
+            case ProblemsActivity.ENGINE_DIAGNOSIS:
+                theDrawableImage = getResources().getDrawable(R.drawable.engine);
+                textViewTitle = "Engine Diagnosis and Repair";
+                break;
+            case ProblemsActivity.ENGINE_SENSOR_DIAGNOSIS:
+                theDrawableImage = getResources().getDrawable(R.drawable.sensor);
+                textViewTitle = "Engine Sensor System Diagnosis";
+                break;
+        }
+
+        problems_problemsTitle.setText(textViewTitle);
+        problems_problemsTitle.setCompoundDrawablesWithIntrinsicBounds(theDrawableImage, null, null, null);
+
     }
 
     class CustomBrowseListViewAdapter extends BaseAdapter {
