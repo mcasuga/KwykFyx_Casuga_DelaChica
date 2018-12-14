@@ -1,41 +1,157 @@
 <Solutions>
     <category type="car_problems_and_repair">
         <solution problemaddressed="cpr-001">
-            <solution_title>Test solution_title from XML #1</solution_title>
-            <solution_description>Test Solution Description from XML #1</solution_description>
-            <full_text>Full Text from XML #1</full_text>
+            <solution_title>Test vital system fuses</solution_title>
+            <solution_description>Fuses are used to protec ...
+            </solution_description>
+            <full_text>Fuses are used to protect various electrical circuits while supplying power
+                to components such as the fuel pump, injection and computer systems from suffering a
+                short circuit and possibly causing an electrical fire. When these fuses blow, the
+                system the support stops working and the engine stops running.
+                When a fuse blows, it does so for one of three reasons:
+                • There is an electrical surge in the charging system or the battery has been jumped
+                backwards.
+                • The fuse ages and pops.
+                • A short circuit exists because a wire, sensor, amplifier or computer has shorted
+                to ground.
+                There are two methods of checking electrical fuses that protect various components.
+                You can either pull each fuse out and inspect it by hand or use a test light and
+                check its continuity. If a blown fuse is found, check the system it belongs to by
+                using the vehicles owner’s manual or the identification chart on the fuse panel
+                cover. Once the system is identified, remove and inspect or replace the failed part
+                and retry the engine. If the fuse still blows, you will need to check the wiring
+                harness for damage or a broken wire and repair it.
+            </full_text>
         </solution>
 
         <solution problemaddressed="cpr-001">
-            <solution_title>Test solution_title from XML #2</solution_title>
-            <solution_description>Test Solution Description from XML #2</solution_description>
-            <full_text>Full Text from XML #2</full_text>
+            <solution_title>Read the engine trouble codes</solution_title>
+            <solution_description>When a vital sensors or co ...</solution_description>
+            <full_text>When a vital sensors or controllers fail in the engine computer system such as a crankshaft angle sensor, ignition amplifier or fuel pump controller, it will stop the engine from starting. This is because the engine needs spark at the time of compression and fuel to enter the combustion chamber to run. A computer sensor, electronic controller or amplifier is exposed to heat and vibration which can cause the internal workings of the unit to stop operating. These failures include an open or short circuit in the electrical part of the sensor, making it non-operative. A check engine, service engine soon or MIL is telling you there is a diagnostic trouble code stored in the car’s computer. These codes are designed to give you an idea of the system or sensor that is causing the engine not to start. When these codes are present, it means the computer has detected a failure which, when corrected, can fix the trouble. Today’s cars are easier than ever to read the codes and it doesn’t cost much to purchase a code reader. Plug a code reader tool or scanner into the ALDL port, which is located on the driver’s side near the bottom of the dash, in most cases, and gather any codes that are present.
+            </full_text>
         </solution>
 
-        <solution problemaddressed="cpr-023">
+        <solution problemaddressed="cpr-001">
+            <solution_title>Check for a crankshaft angle sensor failure (P0335)</solution_title>
+            <solution_description>The crankshaft angle sens ...</solution_description>
+            <full_text>The crankshaft angle sensor is responsible for sending feedback data to the main computer, which in turn translates it into usable information which controls the injector pulse and ignition timing. When this sensor fails the computer sees the engine as not turning. This in turn will not send pulse signals to either the fuel or ignition systems. This problem causes the engine to crank over but not run. This sensor is subject to heat and engine vibrations and is inexpensively produced in mass, thus creating high failure rates. When this sensor becomes worn or weak it will fail to produce the alternating current needed for the computer to read. These sensors are located either at the front, middle or rear of the engine near the bottom of the block where the crankshaft resides. Replacement takes about 45 minutes depending on location and the accessories that may be needed to be removed to perform the repair.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="cpr-001">
+            <solution_title>Test the fuel delivery system</solution_title>
+            <solution_description>The fuel system is used ...</solution_description>
+            <full_text>The fuel system is used to deliver the proper amount of fuel at the correct time of the cylinder’s compression cycle. This is performed by the fuel injection system which consists of a fuel injector for each cylinder, a fuel pump which is located in the fuel tank and fuel lines that travel from the tank and head up to the engine and into the fuel rail where the fuel injectors reside. This entire system is controlled by the computer; if there is a malfunction the electronic injector drivers inside the computer will not send a trigger signal to allow fuel to enter the engine If fuel is not entering the cylinder’s combustion chamber, the engine will not run and deliver the individual cylinder power as intended. This could be due to a fuel pump that has failed and is not supplying fuel pressure, or the injectors themselves are not operating correctly, not allowing the proper amount of fuel to be distributed into each cylinder for the piston to ignite. A fuel pump is a basic electrical motor that is subject to vibration and can fail due to wear and usage. These pumps are cheaply mass produced, which increases the risk of them not working. A fuel injector is a simple magnetic on and off valve that is controlled by an electrical pulse supplied by the main computer. These units are subject to heat, engine vibration and fuel impurities such as gunk and dirt that can make them clog. If one of them short circuits it can cause the injector driver to “lock up,” not allowing any of the injectors or fuel pumps to operate. The easiest way to check if the fuel pump is turning on is to be very quiet and switch the ignition key to the ‘on’ position without cranking the starter. You should be able to hear the pump running in the rear of the car. If you are unsure of its operation, then you will need to test the fuel pressure. If no pressure is present then confirm if the fuel pump is bad by using a wring diagram for your vehicle and probing the pump power wire using a test light. If the fuel pump electrical system and pressure seem to be working okay, the next step is to test the injector pulse. This can be done by using a test light while the engine is cranking over to see if the injector is getting a trigger signal from the computer.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="cpr-001">
             <solution_title>Test solution_title from XML #3</solution_title>
             <solution_description>Test Solution Description from XML #3</solution_description>
             <full_text>Full Text from XML #3</full_text>
         </solution>
 
-        <solution problemaddressed="cpr-032">
-            <solution_title>Test solution_title from XML #4</solution_title>
-            <solution_description>Test Solution Description from XML #4</solution_description>
-            <full_text>Full Text from XML #4</full_text>
+        <solution problemaddressed="cpr-001">
+            <solution_title>Test the ignition system</solution_title>
+            <solution_description>The ignition system is d ...</solution_description>
+            <full_text>The ignition system is designed to ignite the fuel air mixture inside the combustion chamber via the spark plugs. This is done by using an ignition coil, a crankshaft and camshaft angle sensor along with the car’s computer or Power Control Module. This system can stop working due to a failed ignition module or the crankshaft angle sensor which is very common. Ignition components are subject to heat and the vibration of the engine along with the constant wear of building an electronic field and then releasing it to amplify the voltage needed (25,000 to 35,000 volts) to bridge the spark plug gap, which ignites the fuel. When spark plugs wear, they cause this voltage to go higher than the coils and the ignition system is designed for, which creates a failure by overheating. Testing the ignition system is an easy job that takes about five minutes and can be done using a test light or an extra spark plug. Connect a test light to ground and with one of the spark plug wires or coils disconnected. Crank the engine over while holding the tip of the test light about 1/4 (7mm) inch from the wire or coil terminal. Keep your hands clear of the test area to avoid an accidental shock. You can also insert a spark plug into the coil or wire and hold it against a metal ground. You should see a light blue spark in the gap; this is telling you the system is working. If no spark is present more testing of the system will need to be done.
+            </full_text>
         </solution>
+
+        <solution problemaddressed="cpr-001">
+            <solution_title>Check the cylinder compression</solution_title>
+            <solution_description>For an engine to work, t ...</solution_description>
+            <full_text>For an engine to work, three things are needed to happen inside its cylinders to crank over and run; compression, fuel and ignition. Cylinder compression is the result of the proper correlation of the crankshaft, camshaft and valve system while the pistons travel upward in the cylinder bore. When the volume of compression drops below about 85 psi, combustion is not possible. Cylinder pressure can be affected by a mis-alignment of the crankshaft and camshaft, which can put the valve timing out of sync with the pistons. The most common cause of this is a jumped timing belt or timing chain. Improper maintenance such as not changing the oil and filter can cause premature wear of chain whereas the belt is a regular service item that should be replaced between 70,000 and 90,000 miles. Checking engine compression is not too difficult and can be done with a spark plug socket and a compression gauge. Remove the ignition or fuel pump fuse and one of the easiest spark plugs to perform the test. If compression readings are between 125 and 170 psi, the compression is normal. Most of the time if one cylinder has the correct compression the engine will start and run, if one or more cylinders have low compression the engine will misfire and have a rough idle but still run. When the compression is low or non-existent the engine will crank over freely with little resistance to the starter, a sure sign the chain or belt is a problem.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="cpr-023">
+            <solution_title>More obscure starting issues</solution_title>
+            <solution_description>There a few subsequent co ...</solution_description>
+            <full_text>There a few subsequent conditions which are more difficult to detect which will cause your engine not to start and run, such as:
+                •	Water in the fuel tank
+                •	Electrical system wiring harness failure
+                •	Computer malfunction
+                •	Car was driven through a deep water puddle causing electrical components to get wet.
+                Before your car wouldn’t start, did you notice anything out of the ordinary while it was still running such as low power or the check engine light on? This could aid in the troubleshooting and diagnosis of the problem. If you are taking your car in for repairs, be sure to mention anything you noticed before the trouble began to your mechanic.
+            </full_text>
+        </solution>
+
     </category>
 
     <category type="airconditioning">
         <solution problemaddressed="ac-001">
-            <solution_title>Test solution_title from XML #5</solution_title>
-            <solution_description>Test Solution Description from XML #5</solution_description>
-            <full_text>Full Text from XML #5</full_text>
+            <solution_title>Air conditioner not working.</solution_title>
+            <solution_description>The most like ...</solution_description>
+            <full_text>The most likely cause of this is that there is no refrigerant left in your system. This could be caused by a leak in your system somewhere, which will have to be fixed before refilling the refrigerant. If you’re car-savvy and you own a set of air conditioning gauges, refilling the refrigerant is usually easy to do yourself. However, if you’re not so confident, enlist the help of a knowledgeable friend or take a quick trip to the mechanic.</full_text>
+        </solution>
+        <solution problemaddressed="ac-456">
+            <solution_title>Air conditioner not working.</solution_title>
+            <solution_description>We feel your pain a ...</solution_description>
+            <full_text>We feel your pain and discomfort caused by weak airflow. The sweat alone is enough to drive any of us crazy. However, there are a lot of factors at play. If you notice reduced airflow early on—rather than later—take the right step and have it looked at before other fatal A/C system damage can occur.
+                Main causes of weak airflow:
+                	Mold or mildew may have accumulated in the evaporator core from residual moisture that occurs during the cooling process. When this happens, air will have trouble reaching your air vents.
+                	A hose has come loose. This usually happens with the blower hose that supplies air to the blower unit.
+                	Ventilation fan is fried. If the fan’s not blowing, air won’t be flowing very well.
+                	Seals. No, not those seals down by the pier. Core case seals, blower house seals or evaporator core case seals; all can open up and diminish air flow. A/C ventilation systems are very sensitive and must remain sealed. Once they’re opened, the whole system is compromised.
+            </full_text>
         </solution>
 
-        <solution problemaddressed="ac-001">
-            <solution_title>Test solution_title from XML #6</solution_title>
-            <solution_description>Test Solution Description from XML #6</solution_description>
-            <full_text>Full Text from XML #6</full_text>
+        <solution problemaddressed="ac-457">
+            <solution_title>Are there any system warning lights to alert me to an A/C problem?</solution_title>
+            <solution_description>Typically, no, but so ...</solution_description>
+            <full_text>Typically, no, but some vehicles have Driver Information Centers (DIC) that may display the status of many vehicle systems. Refer to your Owner’s Manual for more information.</full_text>
+        </solution>
+
+
+        <solution problemaddressed="ac-462">
+            <solution_title>What causes an A/C system leak?</solution_title>
+            <solution_description>Typically, no, but so ...</solution_description>
+            <full_text>Typically, no, but some vehicles have Driver Information Centers (DIC) that may display the status of many vehicle systems. Refer to your Owner’s Manual for more information.</full_text>
+        </solution>
+
+        <solution problemaddressed="ac-461">
+            <solution_title>How do you test for an A/C system leak?</solution_title>
+            <solution_description>While we’re no C.S.I ...</solution_description>
+            <full_text>How do you test for an A/C system leak?</full_text>
+        </solution>
+
+        <solution problemaddressed="ac-460">
+            <solution_title>What is the smelly, gym locker odor coming from my A/C vents?</solution_title>
+            <solution_description>Sounds like you h ....</solution_description>
+            <full_text>Sounds like you have an odorific problem on your hands. There are a few issues that may be causing this smell.
+                Potential causes of nasty “gym locker” odors:
+                	Dirty and old air cabin filter.
+                	Moldy evaporator case. A problem for many vehicles when water sits in the evaporator case because the case’s drain is blocked. Mold will accumulate.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ac-459">
+            <solution_title>The A/C starts out cool then starts getting warm, what’s happening?</solution_title>
+            <solution_description>Well, like many c ...</solution_description>
+            <full_text>Well, like many complicated stories, there’s never one simple answer. A/C systems are a fickle breed. Your best bet is to have us inspect your system for any of the following listed symptoms.
+                From cold to hot and all the symptoms in between:
+                	The clogged expansion valve: The expansion valve distributes the proper amount of refrigerant to your evaporator. If the valve is blocked, the refrigerant can’t flow into the evaporator. With the valve clogged, the refrigerant will start to freeze the valve altogether if moisture is present.
+                	Faulty compressor clutch: If the clutch is not engaging with your compressor, than your compressor can’t maintain the correct pressure. Hot air will result.
+                	The blown fuse scenario: Fuses sometimes short out. If the fuse associated with your A/C system goes, the power to certain parts will stop.
+                	Leaks are an A/C system’s worst friend: Leaks are the result of damage or the presence of moisture. When moisture and refrigerant mix, nasty corrosive acids will eat away at seals and components, causing a leak.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ac-458">
+            <solution_title>My A/C isn’t as cold as it used to be, what’s going on?</solution_title>
+            <solution_description>There are several re ...</solution_description>
+            <full_text>There are several reasons an A/C system can lose its cool. Bring your ride to us as soon as you start noticing this symptom, it could mean the difference between needing a small repair, or worse, a large one. Here’s what can cause your cold air to lose its cool.
+                The lack of precious cold air could be caused by:
+                	A Freon leak caused by a failed o-ring, seal, hose or component
+                	A clogged expansion tube or refrigerant charging hose
+                	Failed compressor or compressor clutch
+                	Failed blower motor or blower motor resistor
+                	Damaged or failed condenser or evaporator
+                	Vacuum leaks
+                	Failed switch, fuse, relay, control module, blend door or solenoid
+                Leaks can be devastating. When an A/C system develops a leak, you have what’s called an “open system.” If you or your technician discovers the leak early, your repair will be less expensive. Unfortunately, if a leak has been affecting your cold air for a while, moisture will most likely have entered your A/C system and may have damaged other vital and expensive parts. Stay cool.
+            </full_text>
         </solution>
 
         <solution problemaddressed="ac-456">
@@ -53,23 +169,34 @@
 
     <category type="battery_charging">
         <solution problemaddressed="bc-002">
-            <solution_title>Test solution_title from XML #9</solution_title>
-            <solution_description>Test Solution Description from XML #9</solution_description>
-            <full_text>Full Text from XML #9</full_text>
+            <solution_title>Common Car Battery Problems and How to Fix Them</solution_title>
+            <solution_description>First, make sure ...</solution_description>
+            <full_text>First, make sure that none of your accessories are being left on because of a faulty ignition switch. This chronic dead car battery condition usually has three battery related causes and one charging system related cause. You will need a voltmeter to determine if the problem lies with your charging system. Start the car, with the engine idling, check the voltage present at the battery terminals. If it reads anything below thirteen volts, you probably have either a bad alternator or a bad regulator, which is usually built into the alternator on newer cars. If you see between thirteen and fourteen volts with the engine running, try the following troubleshooting steps in order:
+                1.	Check and refill the electrolyte as required. Low electrolyte level will cause a battery to die often.
+                2.	Pull the battery terminals off and thoroughly clean them. Car battery corrosion will impede the flow of electrons to the cables. Charge the battery again and use a battery tester to make sure it holds the charge. If not, the battery requires replacement.
+                3.	If the electrolyte level is correct and the terminals are clean, but the battery still won’t hold a charge, then either the lead oxide plates have deteriorated too much or they’ve become shorted internally and it’s time to replace the battery.
+                Click, Click
+                You turn the key to start the engine, but all that happens is that you hear a clicking sound. This is usually a sign that either the battery doesn’t have enough power to fully engage the solenoid and starter Bendix to fully engage the starter motor. There are few reasons this can be happening though. These reasons are listed below:
+                •	Incomplete charging by alternator. Take the car to a local retail parts chain store and have them test the charging system, as well as the battery. A battery that is not capable of accepting a full charge won’t be able to supply enough power to meet demands.
+                •	Have the same parts store person perform what is known as a started draw test. This tests how much current the starter is asking for to turn the engine over for starting. If this is excessive, you will need to replace the starter. This excessive draw requirement can kill a battery, so you should fully charge the battery and have it load tested.
+                •	Faulty starter solenoid or relay. If the relay or solenoid isn’t able for whatever reason to supply enough power to the starter, you’re just going to hear a click, Test this by bypassing the solenoid with a remote starter switch. If the engine starts, replace the solenoid.
+            </full_text>
         </solution>
 
-        <solution problemaddressed="bc-002">
-            <solution_title>Test solution_title from XML #10</solution_title>
-            <solution_description>Test Solution Description from XML #10</solution_description>
-            <full_text>Full Text from XML #10</full_text>
+        <solution problemaddressed="bc-003">
+            <solution_title>Your new battery is dead.</solution_title>
+            <solution_description>Replace the alte ...</solution_description>
+            <full_text>Replace the alternator, or sometimes you might only have to replace the connections.</full_text>
         </solution>
     </category>
 
     <category type="brake_and_antilock">
         <solution problemaddressed="bal-023">
-            <solution_title>Test solution_title from XML #11</solution_title>
-            <solution_description>Test Solution Description from XML #11</solution_description>
-            <full_text>Full Text from XML #11</full_text>
+            <solution_title>Uneven tire wear.</solution_title>
+            <solution_description>It may not be obvious when driving that your car’s tires are unevenly worn, but worn tires can be dangerous due to their reduced grip on the road ...</solution_description>
+            <full_text>It may not be obvious when driving that your car’s tires are unevenly worn, but worn tires can be dangerous due to their reduced grip on the road. A quick check will tell you if your tires are worn unevenly. The easiest way is to jack up your car and inspect each tire individually, noting whether there are any bald spots on the inside or outside of the tire, or whether there are any dips and dents in the tire tread.
+                Rotating your tires and having your wheels aligned regularly. In terms of how often you should get your tires rotated, it’s different for every vehicle and type of tire, but having them rotated at every oil change is a good rule of thumb. Check with the tire manufacturer for a more specific time frame. Remember that the more often you rotate your tires, the more evenly they’ll wear, and when you have the tires rotated, you should also get them checked for balance and alignment.
+            </full_text>
         </solution>
 
         <solution problemaddressed="bal-023">
@@ -78,96 +205,346 @@
             <full_text>Full Text from XML #12</full_text>
         </solution>
 
+        <solution problemaddressed="bal-025">
+            <solution_title>Brake Stays On</solution_title>
+            <solution_description>Thanks for sharing y ...</solution_description>
+            <full_text>Thanks for sharing your brake question. There are quite a few things that can cause this type of brake problem. If all of the brakes seem to stay on, the cylinder could be the culprit or you could have a problem with a brake hose. You could also have a problem with your ABS (Anti-lock Brake System).
+
+                If the braking problem was only with one wheel, I would say it is probably your brake caliper sticking... but since it sounds like it is happening to all of your wheels, then that is most likely not the case.
+
+                I recommend that you check your brake fluid to be sure that it is not really dark and degraded. If you have done all of the above but you are still having problems with braking, then you should take your vehicle down to a good mechanic or brake shop.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="bal-026">
+            <solution_title>Squeaking Brake Problem</solution_title>
+            <solution_description>Thanks for your que ...</solution_description>
+            <full_text>Thanks for your question Laverne. Brake squeaking is a common complaint and there are many things that can cause this brake noise problem. Some things that might be causing your brakes to squeak are low quality brake pads, long life pads, rotors that need to be "turned" (smoothed out by removing a small amount of their metal surface), dust and grime, etc.
+
+                I'm assuming that you did not have this brake problem before you took your car to them so the squeaking brakes are caused by the work that they did.
+
+                Metallic pads have small pieces of metal in them and some brands have more than others. The more metal, the more likely they are to squeal. Brake pad manufacturers use metal in place of the asbestos that they used to use.
+
+                "Lifetime" brake pads usually contain more metal in them which is why they last longer, unfortunately the side effect of having more metal is the fact that they will probably also squeal a lot more.
+
+                I would recommend that you return to the shop that replaced your brakes and just have them take a look to make sure that there is nothing wrong. I suspect that everything is fine, but it does not hurt to have them take another look.
+
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="bal-026">
+            <solution_title>Squeals while braking. </solution_title>
+            <solution_description>Replacing th ...</solution_description>
+            <full_text>Replacing the brake pads might sound easy, but it needs the right tooling
+
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="bal-136">
+            <solution_title>Leaking Brake Fluid</solution_title>
+            <solution_description>Thanks for using my websit ...</solution_description>
+            <full_text>Thanks for using my website and asking me your question. There are two common things that can cause this type of problem.
+
+                The first thing that might be happening is that you might have a caliper piston seal that is leaking. If this is the case it is just a matter of replacing the brake caliper and bleeding the brake system.
+
+                The most likely cause of this problem is a bad brake hose. Many times they break where the metal line turns into a flexible rubber line. If this is the case then you just need to replace the line and bleed the brake system.
+
+                Either way it should not be too hard or expensive to repair. I hope this helps with your brake fluid leak problem.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="bal-137">
+            <solution_title>Brake Light is on</solution_title>
+            <solution_description>The first thing to ...</solution_description>
+            <full_text>The first thing to check is that your emergency brake is not stuck on. Try to engage it then let it go and see if that makes the light go out or flicker or anything. This is a common cause for brake problems.
+                Another thing to look into is the switch at the top of your brake pedal. If it is faulty, it might cause your brake light to stay on. An easy way to check this is to have someone watch the lights while you pull up on the brake pedal. If the brake lights go off then that is most likely your car brake problem.
+
+                You also should check your brake fluid level in the master cylinder reservoir. If it is low it will cause the light to come on even though your brakes are working fine. If you find that it is low then you need to track down the leak.
+                There is no reason for the brake fluid to be low unless it is leaking out somewhere. You'll want to check around your wheels to see if a wheel cylinder or caliper is leaking. If no, look under your dash where the brake pedal goes through the firewall. If it is wet, it means the master cylinder is leaking. Finally check the master cylinder to see if it is leaking externally.
+
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="bal-138">
+            <solution_title>Power Surges and ABS Light is on</solution_title>
+            <solution_description>Thanks for submitti ...</solution_description>
+            <full_text>Thanks for submitting your question. I know it is very frustrating when you take your car for repairs and you have problems as soon as you drive off the lot.
+
+                The first thing you should do is take your car back to the shop that did the work. It definitely sounds like something that they did wrong. This is why:
+
+                Each wheel has speed sensors that are built into the wheel bearings. These speed sensors tell the cars computer how fast each wheel is turning. They are also used for ABS braking - If the computer sees that the wheels are sliding, it will activate the ABS system. These sensors are also used for the cruise control system. This is how the cruise control computer knows how fast the car is going.
+
+                If the speed sensors are not working properly, then it can cause all the problems that you are having. Most likely the shop did not get the wheel bearings installed correctly, or they could have even gotten the wrong parts. Either way they need to repair this car brake problem or they need to do it at no charge to you.
+
+            </full_text>
+        </solution>
+
         <solution problemaddressed="bal-024">
-            <solution_title>Test solution_title from XML #13</solution_title>
-            <solution_description>Test Solution Description from XML #13</solution_description>
-            <full_text>Full Text from XML #13</full_text>
+            <solution_title>Noisy Brakes</solution_title>
+            <solution_description>There could be a ...</solution_description>
+            <full_text>There could be a number of reasons for noisy brakes. It could be that your brake pads are loose, worn out, or you may have brake dust inside the drum. If you can’t see anything wrong with your brake pads, and you suspect it may be brake dust, it may be best to leave this to a professional – brake dust can be extremely dangerous if accidentally inhaled.</full_text>
+        </solution>
+
+        <solution problemaddressed="bal-135">
+            <solution_title>Brake Pressure Problem</solution_title>
+            <solution_description>It sounds like ...</solution_description>
+            <full_text>It sounds like the classic symptoms of having air in the brake lines. You normally do not have to bleed the master cylinder when you replace a brake line, but it is possible to get air in it.
+
+                I suggest you go back and bleed them one more time starting with the one that is the furthest from the master cylinder. When bleeding the brake lines be sure that the master cylinder is ALWAYS full of fluid. It would even be a good idea to get someone to watch it constantly while the brakes are being bled.
+
+                When bleeding the brakes I normally open the bleeder valve and give the pedal about five good pushes, then hold the pedal to the floor and close the bleeder valve. After the valve is closed then let up on the pedal and open the valve just a little and push down on the pedal and hold it to the floor and close the valve. Do this about five times for each wheel.
+
+                This procedure should get all of the air out. I have rarely had any problems when bleeding brakes like that.
+            </full_text>
         </solution>
 
         <solution problemaddressed="bal-134">
-            <solution_title>Test solution_title from XML #14</solution_title>
-            <solution_description>Test Solution Description from XML #14</solution_description>
-            <full_text>Full Text from XML #14</full_text>
+            <solution_title>Troubleshooting Anti-lock Brakes</solution_title>
+            <solution_description>ABS has become pretty much ...</solution_description>
+            <full_text>ABS has become pretty much standard equipment on most vehicles. Sensors tell a computer when a wheel stops rotating, which indicates—at least when the vehicle still has forward speed—that the brakes have overpowered the available traction at that particular wheel. The computer then directs a hydraulic valve to release some brake fluid pressure to the wheel to let it rotate again. This process repeats many times per second until the vehicle stops or you lift your foot off the brake pedal. The ABS computer does a power-on self-test every time you cycle the ignition. If it finds its lacking data, or a hydraulic pump or valve isn't responding, it illuminates the ABS warning light on the dash. ABS relies on a properly operating conventional brake system. If the ABS packs up, you should still have normal, unassisted braking, so it's safe to continue your journey.
+                Tip: Use your trusty multimeter to check continuity through wheel speed sensors. This sensor has a value of about 1.5 K ohms.
+
+                LIGHTS OUT
+                Your ABS light is on. Now what? First, be sure it really is the ABS light and not the light that indicates an issue with your normal service brakes. If you do have a conventional brake issue, like low pedal or grinding noises, this is the wrong Saturday Mechanic for you. Be sure your brakes have adequate lining life, aren't frozen up and are completely free of air. By the way, if you ever need to replace your brake fluid, try as hard as you can to avoid getting air into the ABS controller. It's difficult to bleed, and many require the use of a scan tool to bleed at all. (The scan tool has a function that cycles the pump and valves to move air out of internal passages that can't be bled properly otherwise.)
+                If the light really is the ABS warning, the first thing to try is to cycle the ignition key off and back on. It's like rebooting your computer—and just maybe whatever transient glitch confused the ABS controller has passed and all is well. If the condition repeats, you need to do some poking and prodding.
+                You have two options when your ABS light stays on. The first one is to find a shop with a scan tool that will talk to your ABS controller. The dealer will have one, as will some aftermarket shops. For a modest service fee ($50 to $100), a technician will interrogate your ABS controller and look for a trouble code stored in memory. This code will at least give you some idea of where to look.
+                ABS has become pretty much standard equipment on most vehicles. Sensors tell a computer when a wheel stops rotating, which indicates—at least when the vehicle still has forward speed—that the brakes have overpowered the available traction at that particular wheel. The computer then directs a hydraulic valve to release some brake fluid pressure to the wheel to let it rotate again. This process repeats many times per second until the vehicle stops or you lift your foot off the brake pedal. The ABS computer does a power-on self-test every time you cycle the ignition. If it finds its lacking data, or a hydraulic pump or valve isn't responding, it illuminates the ABS warning light on the dash. ABS relies on a properly operating conventional brake system. If the ABS packs up, you should still have normal, unassisted braking, so it's safe to continue your journey.
+                Tip: Use your trusty multimeter to check continuity through wheel speed sensors. This sensor has a value of about 1.5 K ohms.
+                SOLUTION
+                LIGHTS OUT
+                Your ABS light is on. Now what? First, be sure it really is the ABS light and not the light that indicates an issue with your normal service brakes. If you do have a conventional brake issue, like low pedal or grinding noises, this is the wrong Saturday Mechanic for you. Be sure your brakes have adequate lining life, aren't frozen up and are completely free of air. By the way, if you ever need to replace your brake fluid, try as hard as you can to avoid getting air into the ABS controller. It's difficult to bleed, and many require the use of a scan tool to bleed at all. (The scan tool has a function that cycles the pump and valves to move air out of internal passages that can't be bled properly otherwise.)
+                If the light really is the ABS warning, the first thing to try is to cycle the ignition key off and back on. It's like rebooting your computer—and just maybe whatever transient glitch confused the ABS controller has passed and all is well. If the condition repeats, you need to do some poking and prodding.
+                You have two options when your ABS light stays on. The first one is to find a shop with a scan tool that will talk to your ABS controller. The dealer will have one, as will some aftermarket shops. For a modest service fee ($50 to $100), a technician will interrogate your ABS controller and look for a trouble code stored in memory. This code will at least give you some idea of where to look.
+            </full_text>
         </solution>
     </category>
 
     <category type="engine_cooling_system">
         <solution problemaddressed="ecs-094">
-            <solution_title>Test solution_title from XML #15</solution_title>
-            <solution_description>Test Solution Description from XML #15</solution_description>
-            <full_text>Full Text from XML #15</full_text>
+            <solution_title>Probably some fluid leak somewhere. Check the floor under the car. </solution_title>
+            <solution_description>If there are s ...</solution_description>
+            <full_text>If there are stains on your garage floor, there is obviously a leakage. It is better to drive carefully to the local mechanic if the leak isn't too bad. Trying to fix things yourself, might prove to be a mistake in this case</full_text>
         </solution>
 
-        <solution problemaddressed="ecs-001">
-            <solution_title>Test solution_title from XML #16</solution_title>
-            <solution_description>Test Solution Description from XML #16</solution_description>
-            <full_text>Full Text from XML #16</full_text>
+        <solution problemaddressed="ecs-095">
+            <solution_title>Cooling system not working.  </solution_title>
+            <solution_description>It's better to leave  ...</solution_description>
+            <full_text>It's better to leave this to people who know what they are doing, since refrigerants are usually toxic.</full_text>
         </solution>
 
-        <solution problemaddressed="ecs-094">
-            <solution_title>Test solution_title from XML #17</solution_title>
-            <solution_description>Test Solution Description from XML #17</solution_description>
-            <full_text>Full Text from XML #17</full_text>
-        </solution>
     </category>
 
     <category type="emission_control">
         <solution problemaddressed="ec-023">
-            <solution_title>Test solution_title from XML #18</solution_title>
-            <solution_description>Test Solution Description from XML #18</solution_description>
-            <full_text>Full Text from XML #18</full_text>
+            <solution_title>Use a cleaning agent</solution_title>
+            <solution_description>Adding a cleaning agent i ...</solution_description>
+            <full_text>Adding a cleaning agent into the fuel system will help remove the deposits and lower the emissions. It’s worth considering using a premium fuel that already contains these additives.
+                Depending on the product, a bottle of liquid should be poured into the fuel tank – with the tank at least a quarter full – before driving the car 10 to 15 miles. The exhaust and fuel cleaner should be used every three months to maintain optimum efficiency.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-024">
+            <solution_title>White exhaust smoke</solution_title>
+            <solution_description>Call the service guys ...</solution_description>
+            <full_text>You can't fix it! Call the service guys, and ensure that you don't run the engine too much
+            </full_text>
         </solution>
 
         <solution problemaddressed="ec-023">
-            <solution_title>Test solution_title from XML #19</solution_title>
-            <solution_description>Test Description from XML #19</solution_description>
-            <full_text>Full Text from XML #19</full_text>
+            <solution_title>Use better fuel</solution_title>
+            <solution_description>"Is it worth paying mor ...</solution_description>
+            <full_text>"Is it worth paying more for premium fuels?" is a question frequently asked. You'll have seen the more expensive fuels alongside regular diesel and unleaded, often labelled as 'premium', 'super' or 'ultimate'.
+                These types of fuels contain active cleaning agents to remove dirt from the engine, which should improve fuel efficiency and reduce emissions. Some motorists may even notice an increase in performance.
+                Results vary depending on make, model and age of the vehicle, how the car is driven and the type of journey. Try filling up three or four times to see if you notice any difference.
+            </full_text>
         </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Change the oil</solution_title>
+            <solution_description>The engine oil is the li ...</solution_description>
+            <full_text>The engine oil is the lifeblood of your vehicle: the fluid that lubricates, cleans, cools and prevents wear. It must be changed at regular intervals to keep your car running at optimum efficiency.
+                Check your vehicle's handbook for the recommended service intervals and make sure to regularly check your engine oil level between service intervals and top up in line with the manufacture’s guidelines, making sure you use the correct grade of oil.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Change the air filter
+            </solution_title>
+            <solution_description>When an air filter is cl ...
+            </solution_description>
+            <full_text>When an air filter is clogged up, the airflow to the engine is reduced, which can lead to a multitude of issues. If an engine can't breathe, deposits will build up, causing premature wear and tear.
+                Again, check the recommended service intervals for the optimum time to change the filter, but be prepared to change it more regularly if you live in a dusty environment.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Check your tire pressures
+            </solution_title>
+            <solution_description>Be honest, how often ...
+            </solution_description>
+            <full_text>Be honest, how often do you check your tire pressures? According to Michelin, a tire loses around 1 psi (0.076 bar) per month, but other factors might accelerate the leak.
+                Low tire pressure increases fuel consumption and CO2 emissions, with a tire under-inflated by 20 percent reducing economy by around 20 percent.
+                Check your tire pressures in line with manufacture’s recommendations or at least once a month.
+                When replacing your tires consider choosing ones that have low rolling resistance all tires sold have an EU tire label giving this information. The difference could be as much as 0.5 liters of fuel per 100km.
+
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Air conditioning system
+            </solution_title>
+            <solution_description>We all like to set the c ...
+            </solution_description>
+            <full_text>We all like to set the cabin temperature to 'just so', but using the air conditioning makes the engine work harder, increasing the vehicle emissions.
+                We'd recommend turning off the air conditioning a few miles before reaching your destination, as the system will allow cool air to continue circulating via the fans. Be sure to use the air conditioning system at least once a week to prevent expensive repairs further down the line.
+                However, it may be more fuel efficient to use the vehicles climate control system than to travel with the windows down as this creates drag on the vehicle increasing fuel consumption and emissions.
+
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Reduce idle time
+            </solution_title>
+            <solution_description>Idle time is when a ...
+            </solution_description>
+            <full_text>Idle time is when a vehicle is left running, even when the car is parked or stuck in traffic. Limit the amount of time spent idling by warming the engine and cabin on the go, rather than before setting off.
+                Equally, if you're likely to be waiting for longer than 10 seconds, but certainly for more than a minute, switch off the engine. Contrary to popular belief, idling for 10 seconds wastes more fuel than restarting.
+                If your car is fitted with a stop-start system, make sure it is switched on.
+                RAC roads policy spokesman Nick Lyes said: "With concerns about air quality and the environment we should all avoid idling when in stationary traffic.
+                "It is likely that clean air zones will be rolled out across the UK over the next few years but we can all do our bit now by switching the engine off when we can.
+                “We welcome the principle of no-idling zones, especially outside schools, hospitals and care homes. No-one should have to suffer dirty air as a result of a driver leaving their engine on unnecessarily. Sadly, many drivers don’t realize the harm they are causing by doing this.
+                “We have worked with a number of schools to encourage parents to switch their engines off. It’s right that those that then persist in leaving them on should be subject to a charge.
+                “It is going to take a combination of different actions to rid our towns and cities of dirty air, introducing no-idling zones is one simple step that we can do now that can lead to cleaner air for all of us."
+
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Change your driving style
+            </solution_title>
+            <solution_description>Making small ch ...
+            </solution_description>
+            <full_text>Making small changes to your driving style can have a significant impact on the level of emissions. Changing gear earlier, not exploring the upper reaches of the rev range, braking sooner and slowing down will reduce wear and tear, while maintaining efficiency.
+                Some vehicles monitor you’re driving style and give feedback through the dashboard information display.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Avoid unnecessary driving
+            </solution_title>
+            <solution_description>Sounds obvious, doe ...
+            </solution_description>
+            <full_text>Sounds obvious, doesn't it, but a car left at home is emitting nothing. Could you combine two trips into one journey? Is it easier to walk or cycle? Consider car sharing schemes.  In short, think of alternatives to sitting behind the wheel.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Maintain your vehicle aerodynamic efficiency
+            </solution_title>
+            <solution_description>If you have a roof ra ...
+            </solution_description>
+            <full_text>If you have a roof rack, bike carrier or roof box fitted on your vehicle this will create resistance and cause drag increasing you vehicle emissions. Consider removing these items when not in use
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="ec-023">
+            <solution_title>Change your car
+            </solution_title>
+            <solution_description>Modern cars a ...
+            </solution_description>
+            <full_text>Modern cars are more efficient than ever, with manufacturers facing increasingly stringent environmental legislation.
+                Taking the steps outlined above might lower the emissions of your existing vehicle, but a newer car might be the best option if a significant reduction is required.
+
+            </full_text>
+        </solution>
+
+
     </category>
 
     <category type="engine_diagnosis">
         <solution problemaddressed="ed-007">
-            <solution_title>Test solution_title from XML #20</solution_title>
-            <solution_description>Test Solution Description from XML #20</solution_description>
-            <full_text>Full Text from XML #20</full_text>
-        </solution>
-
-        <solution problemaddressed="ed-007">
-            <solution_title>Test solution_title from XML #21</solution_title>
-            <solution_description>Test Solution Description from XML #21</solution_description>
-            <full_text>Full Text from XML #21</full_text>
-        </solution>
-
-        <solution problemaddressed="ed-007">
-            <solution_title>Test solution_title from XML #22</solution_title>
-            <solution_description>Test Solution Description from XML #22</solution_description>
-            <full_text>Full Text from XML #22</full_text>
+            <solution_title>Problems starting the engine</solution_title>
+            <solution_description>There are a numb ...</solution_description>
+            <full_text>There are a number of reasons which can cause a car engine not to start, the most common, of course, being a dead battery. Pay special attention to the noise it makes when you turn the key. Is the car completely silent? If so, there may be a problem with your battery terminal cable connections. Does your car crank over but not start? Then it may be your spark plugs or fuel supply to your engine. In any case, if you’re out on the road, try jumpstarting your car then investigating the cause further when you’re safely back at home.</full_text>
         </solution>
 
         <solution problemaddressed="ed-006">
-            <solution_title>Test solution_title from XML #23</solution_title>
-            <solution_description>Test Solution Description from XML #23</solution_description>
-            <full_text>Full Text from XML #23</full_text>
+            <solution_title>Squeals from under the bonnet. </solution_title>
+            <solution_description>Buy a belt recom ...</solution_description>
+            <full_text>Buy a belt recommended for that engine; can be replaced by loosening either the alternator or the tensioner.</full_text>
         </solution>
+
+        <solution problemaddressed="ed-009">
+            <solution_title>Your car won't start, still. </solution_title>
+            <solution_description>Unless the engin ...</solution_description>
+            <full_text>Unless the engine is placed too far for you to access, you can replace the old plugs, using deep socket wrenches.</full_text>
+        </solution>
+
+        <solution problemaddressed="ed-008">
+            <solution_title>The steering wheel is vibrating. </solution_title>
+            <solution_description>Balance the w ...</solution_description>
+            <full_text>Balance the wheel. Do wheel alignment too for your inner satisfaction.</full_text>
+        </solution>
+
     </category>
 
     <category type="engine_sensor">
         <solution problemaddressed="es-001">
-            <solution_title>Test solution_title from XML #24</solution_title>
-            <solution_description>Test Solution Description from XML #24</solution_description>
-            <full_text>Full Text from XML #24</full_text>
+            <solution_title>Engine overheating.</solution_title>
+            <solution_description>Overheating can ...</solution_description>
+            <full_text>Overheating can be caused by a few different factors. The simplest cause may be that your car needs more coolant. Yet depleted coolant can be caused by bigger problem, like leaks or faulty hoses, so always check for the underlying cause before simply filling it up with more. Another common reason for overheating may be that the radiator fan which keeps your engine cool is faulty, so check your fan motor connection and fan thermostat.</full_text>
         </solution>
 
+
         <solution problemaddressed="es-001">
-            <solution_title>Test solution_title from XML #25</solution_title>
+            <solution_title>Overheating of the engine</solution_title>
             <solution_description>Test Solution Description from XML #25</solution_description>
-            <full_text>Full Text from XML #25</full_text>
+            <full_text>Use a temporary sealant which can withstand high temperatures, to close leaks (while the engine is cold); buy some coolant and fill it in the car. If nothing works, call the mechanic</full_text>
         </solution>
 
         <solution problemaddressed="es-096">
-            <solution_title>Test solution_title from XML #26</solution_title>
-            <solution_description>Test Solution Description from XML #26</solution_description>
-            <full_text>Full Text from XML #26</full_text>
+            <solution_title>Traction Control and ABS Lights are on</solution_title>
+            <solution_description>My traction control and AB ...</solution_description>
+            <full_text>The first thing that needs to be done is a code check. If these lights are on then there are codes set in your computer. Most auto parts stores and many repair shops will do this for free. After you know the code you will be able to narrow down the possibilities.
+                The most likely cause of your brake problems is the wheel speed sensors on your vehicle. Many times they go bad and the computer is no longer able to read them to tell how fast each wheel is spinning so it turns off your traction control system and many times your ABS system as well until the problem is resolved. There are many other things like the ABD control unit, the computer, wiring, etc. that can cause these lights to come on but they are not as likely.
+
+                It is important to get this brake problem fixed as the system will not work correctly until it is repaired. Normally, if a speed sensor does need to be replaced, it is not an expensive fix.
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="es-098">
+            <solution_title>Vehicle Shakes When Stopping</solution_title>
+            <solution_description>The first thi ...</solution_description>
+            <full_text>The first thing I would do is look for a vacuum leak. It sounds like you might have one. It is possible that your brake booster is leaking which could cause your shaking. There is also a PVC elbow on the back of the intake manifold that is prone to degrade and cause leakage. These are the first things to check.
+
+                The next things to check are the IAC and the Throttle Body. Both of these should be cleaned with a good brake cleaner. You could also clean the Mass Airflow Sensor (MAF) these will sometimes cause this type of problem.
+
+                The above mentioned items are the most likely causes of your truck brake problems. That said, there are other things that could cause problem with brakes, such as injectors, ignition coils, Exhaust Gas Recirculation (EGR) system problem (The EGR valve could be sticking open), etc.
+                Without being able to read the DataStream that the computer is putting out, it is impossible for me to give you much more help than this. I think if you check all of the items I've listed you will probably find your brake problem.
+
+            </full_text>
+        </solution>
+
+        <solution problemaddressed="es-098">
+            <solution_title>Some new rattle inside the car. </solution_title>
+            <solution_description>You've hit a h ...</solution_description>
+            <full_text> Locate the sound source. Buy some sound deadening adhesive (If you are a miser, you can go for a chewing gum for small applications). Apply it to places yourself, only if you can put back the parts you pull out.
+        </full_text>
+        </solution>
+
+        <solution problemaddressed="es-099">
+            <solution_title>How to troubleshoot overheating engine</solution_title>
+            <solution_description>Some overheating prob ...</solution_description>
+            <full_text>Some overheating problems aren’t related to the cooling system at all. Here are some other circumstances that can cause a vehicle to overheat:
+                •	Late timing: If your ignition system is malfunctioning, late timing may be causing your vehicle to overheat because the spark plugs are firing the fuel/air mixture after the piston moves back down from the top of its stroke. Late timing alone doesn’t cause an engine to overheat by more than a few degrees, but when coupled with other problems, it can bring the engine temperature to a critical point. Have a service facility place your vehicle on an electronic diagnostic machine to check your timing and adjust it if necessary.
+                •	Plugged radiator: Because plugged radiators cut down on the system’s liquid circulation, the system can’t cool efficiently. The remedy is to have a radiator specialist remove and inspect the radiator. If you’re lucky, just steam-cleaning the radiator does the job; if you’re not, the solution may be more expensive.
+                •	Slipping accessory belt: If you can see and reach the accessory belt that drives the water pump, check to be sure that there’s no more than about 1⁄2 inch of give. If the belt seems loose or frayed, you can try to replace it. If you can’t do the job, have a professional deal with it.
+                •	Collapsing bottom radiator hose: Occasionally, a bottom radiator hose begins to collapse under the vacuum that the water pump creates, and the impaired circulation causes overheating.
+                •	Low oil level: A vehicle that’s low on oil tends to overheat because the oil removes from 75 to 80 percent of the “waste heat” in your engine (in addition to doing its other job of cushioning the moving engine parts).
+                If you’re one quart low in oil and your vehicle holds five quarts, the oil will carry away 20 percent less heat than it should.
+                Under normal circumstances, you can prevent overheating by checking the level of liquid in the system and maintaining it properly.
+
+            </full_text>
         </solution>
     </category>
 </Solutions>

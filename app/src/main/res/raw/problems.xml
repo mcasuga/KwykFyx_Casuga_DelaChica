@@ -1,13 +1,15 @@
 <Problems>
     <category type="car_problems_and_repair">
         <problem id="cpr-001">
-            <problemTitle>CPR-001 title</problemTitle>
-            <problemDescription>CPR-001 desc</problemDescription>
+            <problemTitle>Car engine problems and solutions</problemTitle>
+            <problemDescription>What makes an engine run?
+                For an engine to run it must have compression, the proper amount of fuel and air mixture with a spark at the plug at the correct time.
+            </problemDescription>
         </problem>
 
         <problem id="cpr-023">
-            <problemTitle>CPR-023</problemTitle>
-            <problemDescription>CPR-023</problemDescription>
+            <problemTitle>More obscure starting issues</problemTitle>
+            <problemDescription>There a few subsequent conditions which are more difficult to detect which will cause your engine not to start and run</problemDescription>
         </problem>
 
         <problem id="cpr-032">
@@ -18,80 +20,180 @@
 
     <category type="airconditioning">
         <problem id="ac-001">
-            <problemTitle>AC-001 title</problemTitle>
-            <problemDescription>AC-001 desc</problemDescription>
+            <problemTitle>Air conditioner not working.</problemTitle>
+            <problemDescription>Your air con will switch on, but you notice it’s just blowing room-temperature air around rather than cold air.</problemDescription>
         </problem>
 
         <problem id="ac-456">
-            <problemTitle>AC-456 title</problemTitle>
-            <problemDescription>AC-456 desc</problemDescription>
+            <problemTitle>Why does my A/C have weak airflow?</problemTitle>
+            <problemDescription>We feel your pain and discomfort caused by weak airflow. The sweat alone is enough to drive any of us crazy.</problemDescription>
+        </problem>
+
+        <problem id="ac-457">
+            <problemTitle>Are there any system warning lights to alert me to an A/C problem?</problemTitle>
+            <problemDescription>Typically, no, but some vehicles have Driver Information Centers (DIC) </problemDescription>
+        </problem>
+
+        <problem id="ac-458">
+            <problemTitle>My A/C isn’t as cold as it used to be, what’s going on?</problemTitle>
+            <problemDescription>There are several reasons an A/C system can lose its cool. Bring your ride to us as soon as you start noticing this symptom, it could mean the difference between needing a small repair, or worse, a large one. Here’s what can cause your cold air to lose its cool. </problemDescription>
+        </problem>
+
+        <problem id="ac-459">
+            <problemTitle>The A/C starts out cool then starts getting warm, what’s happening?</problemTitle>
+            <problemDescription>Well, like many complicated stories, there’s never one simple answer. A/C systems are a fickle breed. Your best bet is to have us inspect your system for any of the following listed symptoms.</problemDescription>
+        </problem>
+
+        <problem id="ac-460">
+            <problemTitle>What is the smelly, gym locker odor coming from my A/C vents?</problemTitle>
+            <problemDescription>Sounds like you have an odorific problem on your hands. There are a few issues that may be causing this smell.</problemDescription>
+        </problem>
+
+        <problem id="ac-461">
+            <problemTitle>How do you test for an A/C system leak?</problemTitle>
+            <problemDescription>While we’re no C.S.I. unit, the ways to detect an A/C system leak are not far off from an episode of the ever popular investigation show.</problemDescription>
+        </problem>
+
+        <problem id="ac-462">
+            <problemTitle>What causes an A/C system leak?</problemTitle>
+            <problemDescription>Age and moisture. Plain and simple. </problemDescription>
         </problem>
     </category>
 
     <category type="battery_charging">
         <problem id="bc-002">
-            <problemTitle>BC-002 title</problemTitle>
-            <problemDescription>BC-002 desc</problemDescription>
+            <problemTitle>Common Car Battery Problems and How to Fix Them</problemTitle>
+            <problemDescription>Dead Every Morning. You change your car’s battery every day, but every morning, but, especially when it’s very cold or very hot out, your car won’t start and you have to boost it to get it to start
+            </problemDescription>
+        </problem>
+
+        <problem id="bc-003">
+            <problemTitle>Your new battery is dead</problemTitle>
+            <problemDescription>It's not your new battery. It is your alternator
+            </problemDescription>
         </problem>
     </category>
 
     <category type="brake_and_antilock">
         <problem id="bal-023">
-            <problemTitle>BAL-023 title</problemTitle>
-            <problemDescription>BAL-023 desc</problemDescription>
+            <problemTitle>Uneven tire wear.</problemTitle>
+            <problemDescription>A quick check will tell you if your tires are worn unevenly.</problemDescription>
         </problem>
 
         <problem id="bal-024">
-            <problemTitle>BAL-024 title</problemTitle>
-            <problemDescription>BAL-024 desc</problemDescription>
+            <problemTitle>Noisy brakes.</problemTitle>
+            <problemDescription>You’ll know it when you hear it!</problemDescription>
         </problem>
 
-        <problem id="bal-134">
-            <problemTitle>BAL-134 title</problemTitle>
-            <problemDescription>BAL-134 desc</problemDescription>
+        <problem id="bal-025">
+            <problemTitle>Brake Stays On</problemTitle>
+            <problemDescription>When I apply my brakes they feel like they stay on. The rotors and wheels get very hot! I have a 2003 Chevy S10 4x4 V6.</problemDescription>
         </problem>
+
+        <problem id="bal-026">
+            <problemTitle>Squeaking Brake Problem</problemTitle>
+            <problemDescription>Brake pads are faded, or there is a lot of brake dust on the discs/drums. </problemDescription>
+        </problem>
+
+
+        <problem id="bal-134">
+            <problemTitle>Troubleshooting Anti-lock Brakes</problemTitle>
+            <problemDescription>ABS has become pretty much standard equipment on most vehicles. Sensors tell a computer when a wheel stops rotating, which indicates—at least when the vehicle still has forward speed—that the brakes have overpowered the available traction at that particular wheel. </problemDescription>
+        </problem>
+
+        <problem id="bal-135">
+            <problemTitle>Brake Pressure Problem</problemTitle>
+            <problemDescription>I'm having car brake problems. My 1992 Toyota Camry blew a leak in the left front brake hose, (just past the midway clamp).</problemDescription>
+        </problem>
+
+        <problem id="bal-136">
+            <problemTitle>Leaking Brake Fluid</problemTitle>
+            <problemDescription>My car is leaking brake fluid inside driver’s wheel well and the pedal goes to floor. I'm sure the leaking is the cause for the pedal to go to floor. How difficult will it be to replace and repair the problem assuming it’s a leaking line. (1996 Chrysler Cirrus)</problemDescription>
+        </problem>
+
+        <problem id="bal-137">
+            <problemTitle>Brake light is on</problemTitle>
+            <problemDescription>My 1996 Acura Integra LS brake light on the dash stays on without the brake being on, what brake problems should I look into?</problemDescription>
+        </problem>
+
+        <problem id="bal-138">
+            <problemTitle>Power Surges and ABS Light is on</problemTitle>
+            <problemDescription>I just spent $1,200 having repairs done on my 2003 Windstar. I had the front sway bars replaced on both sides, front wheel bearings replaced on both sides and the power steering fluid motor replaced.</problemDescription>
+        </problem>
+
+
     </category>
 
     <category type="engine_cooling_system">
         <problem id="ecs-094">
-            <problemTitle>ECS-094 title</problemTitle>
-            <problemDescription>ECS-094 desc</problemDescription>
+            <problemTitle>There is some odd fluid smell in your cooling system. </problemTitle>
+            <problemDescription>Probably some fluid leak somewhere. Check the floor under the car. </problemDescription>
         </problem>
 
-        <problem id="ecs-001">
-            <problemTitle>ECS-001 title</problemTitle>
-            <problemDescription>ECS-001 desc</problemDescription>
+        <problem id="ecs-095">
+            <problemTitle>Cooling system not working.  </problemTitle>
+            <problemDescription>Low refrigerant, or a leaking AC hose. </problemDescription>
         </problem>
+
     </category>
 
     <category type="emission_control">
         <problem id="ec-023">
-            <problemTitle>EC-023 title</problemTitle>
-            <problemDescription>EC-023 desc</problemDescription>
+            <problemTitle>Driving emissions</problemTitle>
+            <problemDescription>As a car gets older, harmful deposits can build up in the vehicle's engine, reducing efficiency and increasing emissions.</problemDescription>
+        </problem>
+
+        <problem id="ec-024">
+            <problemTitle>White exhaust smoke. </problemTitle>
+            <problemDescription>Coolant or Engine oil is leaking into the combustion chamber, due to a faulty gasket. </problemDescription>
         </problem>
     </category>
 
     <category type="engine_diagnosis">
         <problem id="ed-007">
-            <problemTitle>ED-007 title</problemTitle>
-            <problemDescription>ED-007 desc</problemDescription>
+            <problemTitle>Problems starting the engine.</problemTitle>
+            <problemDescription>Your car either takes a long time to start, or the car simply won’t start at all.</problemDescription>
         </problem>
 
         <problem id="ed-006">
-            <problemTitle>ED-006 title</problemTitle>
-            <problemDescription>ED-006 desc</problemDescription>
+            <problemTitle>Squeals from under the bonnet. </problemTitle>
+            <problemDescription>The serpentine belt (or fan belt as you may have heard), is slipping.</problemDescription>
+        </problem>
+
+        <problem id="ed-008">
+            <problemTitle>The steering wheel is vibrating. </problemTitle>
+            <problemDescription>Unbalanced wheel, probably due to some rough road action. In worst cases, it's a faulty steering rack. </problemDescription>
+        </problem>
+
+        <problem id="ed-009">
+            <problemTitle>Your car won't start, still. </problemTitle>
+            <problemDescription>Faulty spark plugs. </problemDescription>
         </problem>
     </category>
 
     <category type="engine_sensor">
         <problem id="es-001">
-            <problemTitle>ES-001 title</problemTitle>
-            <problemDescription>ES-001 desc</problemDescription>
+            <problemTitle>Overheating engine</problemTitle>
+            <problemDescription>You may notice steam or smoke coming from your bonnet, or the needle on your engine temperature gauge may be through the roof. - Low coolant level, coolant leakage or a faulty thermostat (Device that controls the flow of coolant from the radiator to the engine) </problemDescription>
         </problem>
 
         <problem id="es-096">
-            <problemTitle>ES-096 title</problemTitle>
-            <problemDescription>ES-096 desc</problemDescription>
+            <problemTitle>Traction Control and ABS Lights are on</problemTitle>
+            <problemDescription>My traction control and ABS lights come on about 1 mile of driving. They stay on most of the time. What can I do to fix my brake problem? (2004 Chevy Avalanche)</problemDescription>
         </problem>
+
+        <problem id="es-098">
+            <problemTitle>Vehicles shake</problemTitle>
+            <problemDescription>Hey, I've got a 2004 Ford F-150 XLT Crew Cab with low km's (30,000). I picked it up 2 months ago and have started noticing that the truck shakes when I come to a complete stop. It doesn't happen if I VERY gradually come to a stop, only regular stop and go city driving or, if need be, heavy braking situations. It also only happens after the vehicle has come to a complete stop.</problemDescription>
+        </problem>
+
+        <problem id="es-099">
+            <problemTitle>How to troubleshoot overheating engine</problemTitle>
+            <problemDescription>Some overheating problems aren’t related to the cooling system at all.
+            </problemDescription>
+        </problem>
+
+
+
     </category>
 </Problems>
