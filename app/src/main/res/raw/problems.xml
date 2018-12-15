@@ -12,10 +12,6 @@
             <problemDescription>There a few subsequent conditions which are more difficult to detect which will cause your engine not to start and run</problemDescription>
         </problem>
 
-        <problem id="cpr-032">
-            <problemTitle>CPR-032</problemTitle>
-            <problemDescription>CPR-032</problemDescription>
-        </problem>
     </category>
 
     <category type="airconditioning">
