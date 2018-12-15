@@ -14,7 +14,7 @@
 
     </category>
 
-    <category type="airconditioning">
+    <category type="airconditioning">R
         <problem id="ac-001">
             <problemTitle>Air conditioner not working.</problemTitle>
             <problemDescription>Your air con will switch on, but you notice it’s just blowing room-temperature air around rather than cold air.</problemDescription>
@@ -180,7 +180,7 @@
 
         <problem id="es-098">
             <problemTitle>Vehicles shake</problemTitle>
-            <problemDescription>Hey, I've got a 2004 Ford F-150 XLT Crew Cab with low km's (30,000). I picked it up 2 months ago and have started noticing that the truck shakes when I come to a complete stop. It doesn't happen if I VERY gradually come to a stop, only regular stop and go city driving or, if need be, heavy braking situations. It also only happens after the vehicle has come to a complete stop.</problemDescription>
+            <problemDescription>I picked it up 2 months ago and have started noticing that the truck shakes when I come to a complete stop. It doesn't happen if I VERY gradually come to a stop, only regular stop and go city driving or, if need be, heavy braking situations.</problemDescription>
         </problem>
 
         <problem id="es-099">
